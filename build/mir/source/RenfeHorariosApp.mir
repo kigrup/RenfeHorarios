@@ -1,0 +1,86 @@
+[ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc"; @line = 3; ]
+import Toybox.Position;
+[ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc"; @line = 6; ]
+class RenfeHorariosApp extends Application.AppBase{
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc"; @line = 8; @position = 8; ]
+    var mainView;
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc"; @line = 9; @position = 8; ]
+    var mainViewDelegate;
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc"; @line = 11; ]
+    function initialize() as Void {
+P_Projects_RenfeHorarios_source_RenfeHorariosApp_mc_11_26_13_4_start:
+[ "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc" 12 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+P_Projects_RenfeHorarios_source_RenfeHorariosApp_mc_11_26_13_4_stop:
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc"; @line = 15; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc"; @line = 18; ]
+    function onStop(state as Dictionary or Null) as Void {
+P_Projects_RenfeHorarios_source_RenfeHorariosApp_mc_18_50_20_4_start:
+[ "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc" 19 8 ]
+        %tmp.1 = getm $.Toybox.Position;
+        %tmp.2 = getv function %tmp.1 :enableLocationEvents;
+        %tmp.3 = getm $.Toybox.Position;
+        %tmp.4 = getv %tmp.3 :LOCATION_DISABLE;
+        %tmp.5 = null;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.5);
+P_Projects_RenfeHorarios_source_RenfeHorariosApp_mc_18_50_20_4_stop:
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc"; @line = 22; ]
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+P_Projects_RenfeHorarios_source_RenfeHorariosApp_mc_22_68_26_4_start:
+[ "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc" 23 2 ]
+        %tmp.4 = getv ? :RenfeHorariosView;
+        %tmp.1 = newc %tmp.4 ();
+        putv self :mainView %tmp.1;
+[ "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc" 24 8 ]
+        %tmp.8 = getv ? :RenfeHorariosViewDelegate;
+        %tmp.10 = getv ? :mainView;
+        %tmp.11 = getv function %tmp.10 :method;
+        %tmp.13 = const :onReceive;
+        %tmp.14 = invoke %tmp.10 %tmp.11(%tmp.13);
+        %tmp.5 = newc %tmp.8 (%tmp.14);
+        putv self :mainViewDelegate %tmp.5;
+[ "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc" 25 8 ]
+        %tmp.15 = newa 2;
+        %tmp.17 = getv ? :mainView;
+        %tmp.18 = dup %tmp.15;
+        %tmp.19 = aputv %tmp.18 0 %tmp.17;
+        %tmp.21 = getv ? :mainViewDelegate;
+        %tmp.22 = dup %tmp.19;
+        %tmp.23 = aputv %tmp.22 1 %tmp.21;
+        ret %tmp.23;
+P_Projects_RenfeHorarios_source_RenfeHorariosApp_mc_22_68_26_4_stop:
+    }
+}
+[ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc"; @line = 30; ]
+function getApp() as RenfeHorariosApp {
+P_Projects_RenfeHorarios_source_RenfeHorariosApp_mc_30_38_32_0_start:
+[ "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc" 31 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 RenfeHorariosApp;
+    ret %tmp.4;
+P_Projects_RenfeHorarios_source_RenfeHorariosApp_mc_30_38_32_0_stop:
+}
+[ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosApp.mc"; @line = 1; ]
+<init> {
+}

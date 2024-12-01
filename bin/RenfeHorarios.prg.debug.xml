@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="P:\Projects\RenfeHorarios\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="1" lineNum="46" parent="globals/NearestStationMenuItemDrawable" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\TrainLineMenu.mc" id="2" lineNum="5" parent="globals/TrainLineMenu" pc="268435472" symbol="&lt;init&gt;"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosApp.mc" id="3" lineNum="30" parent="globals" pc="268435484" symbol="getApp"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosApp.mc" id="3" lineNum="31" parent="globals" pc="268435494" symbol="getApp"/>
+        <entry filename="p:\\Projects\\RenfeHorarios\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosMenuDelegate.mc" id="5" lineNum="5" parent="globals/RenfeHorariosMenuDelegate" pc="268435525" symbol="&lt;init&gt;"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\TrainLineMenu.mc" id="6" lineNum="29" parent="globals/TrainLineMenuItemDrawable" pc="268435537" symbol="&lt;init&gt;"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosApp.mc" id="7" lineNum="6" parent="globals/RenfeHorariosApp" pc="268435549" symbol="&lt;init&gt;"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="8" lineNum="5" parent="globals/NearestStationMenu" pc="268435561" symbol="&lt;init&gt;"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationInputDelegate.mc" id="9" lineNum="4" parent="globals/NearestStationInputDelegate" pc="268435573" symbol="&lt;init&gt;"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="10" lineNum="7" parent="globals/Stations/&lt;statics&gt;" pc="268435585" symbol="&lt;init&gt;"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosViewDelegate.mc" id="11" lineNum="6" parent="globals/RenfeHorariosViewDelegate" pc="268436170" symbol="&lt;init&gt;"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosView.mc" id="12" lineNum="4" parent="globals/RenfeHorariosView" pc="268436182" symbol="&lt;init&gt;"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="13" lineNum="69" parent="globals/NearestStationMenuItemDrawable" pc="268436194" symbol="updateLabels"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="13" lineNum="71" parent="globals/NearestStationMenuItemDrawable" pc="268436197" symbol="updateLabels"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="13" lineNum="72" parent="globals/NearestStationMenuItemDrawable" pc="268436231" symbol="updateLabels"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="13" lineNum="73" parent="globals/NearestStationMenuItemDrawable" pc="268436290" symbol="updateLabels"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="13" lineNum="74" parent="globals/NearestStationMenuItemDrawable" pc="268436313" symbol="updateLabels"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="13" lineNum="75" parent="globals/NearestStationMenuItemDrawable" pc="268436318" symbol="updateLabels"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="14" lineNum="55" parent="globals/NearestStationMenuItemDrawable" pc="268436333" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="14" lineNum="56" parent="globals/NearestStationMenuItemDrawable" pc="268436335" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="14" lineNum="62" parent="globals/NearestStationMenuItemDrawable" pc="268436393" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="14" lineNum="63" parent="globals/NearestStationMenuItemDrawable" pc="268436402" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="14" lineNum="64" parent="globals/NearestStationMenuItemDrawable" pc="268436411" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="14" lineNum="65" parent="globals/NearestStationMenuItemDrawable" pc="268436420" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="14" lineNum="66" parent="globals/NearestStationMenuItemDrawable" pc="268436429" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="15" lineNum="80" parent="globals/NearestStationMenuItemDrawable" pc="268436440" symbol="draw"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="15" lineNum="82" parent="globals/NearestStationMenuItemDrawable" pc="268436442" symbol="draw"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="15" lineNum="84" parent="globals/NearestStationMenuItemDrawable" pc="268436458" symbol="draw"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="15" lineNum="92" parent="globals/NearestStationMenuItemDrawable" pc="268436489" symbol="draw"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="15" lineNum="100" parent="globals/NearestStationMenuItemDrawable" pc="268436520" symbol="draw"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="15" lineNum="101" parent="globals/NearestStationMenuItemDrawable" pc="268436529" symbol="draw"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\TrainLineMenu.mc" id="16" lineNum="7" parent="globals/TrainLineMenu" pc="268436565" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\TrainLineMenu.mc" id="16" lineNum="8" parent="globals/TrainLineMenu" pc="268436568" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\TrainLineMenu.mc" id="16" lineNum="10" parent="globals/TrainLineMenu" pc="268436587" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\TrainLineMenu.mc" id="16" lineNum="11" parent="globals/TrainLineMenu" pc="268436603" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\TrainLineMenu.mc" id="16" lineNum="15" parent="globals/TrainLineMenu" pc="268436610" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosMenuDelegate.mc" id="17" lineNum="7" parent="globals/RenfeHorariosMenuDelegate" pc="268436704" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosMenuDelegate.mc" id="17" lineNum="8" parent="globals/RenfeHorariosMenuDelegate" pc="268436706" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosMenuDelegate.mc" id="18" lineNum="11" parent="globals/RenfeHorariosMenuDelegate" pc="268436719" symbol="onSelect"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosMenuDelegate.mc" id="18" lineNum="12" parent="globals/RenfeHorariosMenuDelegate" pc="268436721" symbol="onSelect"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\TrainLineMenu.mc" id="19" lineNum="35" parent="globals/TrainLineMenuItemDrawable" pc="268436742" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\TrainLineMenu.mc" id="19" lineNum="36" parent="globals/TrainLineMenuItemDrawable" pc="268436744" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\TrainLineMenu.mc" id="19" lineNum="43" parent="globals/TrainLineMenuItemDrawable" pc="268436802" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\TrainLineMenu.mc" id="19" lineNum="44" parent="globals/TrainLineMenuItemDrawable" pc="268436811" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\TrainLineMenu.mc" id="20" lineNum="48" parent="globals/TrainLineMenuItemDrawable" pc="268436821" symbol="draw"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\TrainLineMenu.mc" id="20" lineNum="49" parent="globals/TrainLineMenuItemDrawable" pc="268436823" symbol="draw"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\TrainLineMenu.mc" id="20" lineNum="51" parent="globals/TrainLineMenuItemDrawable" pc="268436839" symbol="draw"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\TrainLineMenu.mc" id="20" lineNum="59" parent="globals/TrainLineMenuItemDrawable" pc="268436870" symbol="draw"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosApp.mc" id="21" lineNum="15" parent="globals/RenfeHorariosApp" pc="268436902" symbol="onStart"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosApp.mc" id="22" lineNum="22" parent="globals/RenfeHorariosApp" pc="268436905" symbol="getInitialView"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosApp.mc" id="22" lineNum="23" parent="globals/RenfeHorariosApp" pc="268436907" symbol="getInitialView"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosApp.mc" id="22" lineNum="24" parent="globals/RenfeHorariosApp" pc="268436936" symbol="getInitialView"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosApp.mc" id="22" lineNum="25" parent="globals/RenfeHorariosApp" pc="268436983" symbol="getInitialView"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosApp.mc" id="23" lineNum="11" parent="globals/RenfeHorariosApp" pc="268437004" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosApp.mc" id="23" lineNum="12" parent="globals/RenfeHorariosApp" pc="268437006" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosApp.mc" id="24" lineNum="18" parent="globals/RenfeHorariosApp" pc="268437019" symbol="onStop"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosApp.mc" id="24" lineNum="19" parent="globals/RenfeHorariosApp" pc="268437021" symbol="onStop"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="25" lineNum="9" parent="globals/NearestStationMenu" pc="268437038" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="25" lineNum="10" parent="globals/NearestStationMenu" pc="268437041" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="25" lineNum="11" parent="globals/NearestStationMenu" pc="268437050" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="25" lineNum="28" parent="globals/NearestStationMenu" pc="268437242" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="25" lineNum="29" parent="globals/NearestStationMenu" pc="268437263" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationMenu.mc" id="25" lineNum="31" parent="globals/NearestStationMenu" pc="268437274" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationInputDelegate.mc" id="26" lineNum="19" parent="globals/NearestStationInputDelegate" pc="268437381" symbol="onFooter"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationInputDelegate.mc" id="26" lineNum="20" parent="globals/NearestStationInputDelegate" pc="268437384" symbol="onFooter"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationInputDelegate.mc" id="26" lineNum="21" parent="globals/NearestStationInputDelegate" pc="268437424" symbol="onFooter"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationInputDelegate.mc" id="26" lineNum="29" parent="globals/NearestStationInputDelegate" pc="268437479" symbol="onFooter"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationInputDelegate.mc" id="27" lineNum="8" parent="globals/NearestStationInputDelegate" pc="268437519" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationInputDelegate.mc" id="27" lineNum="9" parent="globals/NearestStationInputDelegate" pc="268437521" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationInputDelegate.mc" id="27" lineNum="10" parent="globals/NearestStationInputDelegate" pc="268437533" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationInputDelegate.mc" id="28" lineNum="13" parent="globals/NearestStationInputDelegate" pc="268437543" symbol="onSelect"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationInputDelegate.mc" id="28" lineNum="14" parent="globals/NearestStationInputDelegate" pc="268437546" symbol="onSelect"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\NearestStationInputDelegate.mc" id="28" lineNum="16" parent="globals/NearestStationInputDelegate" pc="268437572" symbol="onSelect"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="29" lineNum="46" parent="globals/APIRequest" pc="268437634" symbol="onReceiveResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="29" lineNum="48" parent="globals/APIRequest" pc="268437637" symbol="onReceiveResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="29" lineNum="49" parent="globals/APIRequest" pc="268437646" symbol="onReceiveResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="29" lineNum="50" parent="globals/APIRequest" pc="268437658" symbol="onReceiveResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="29" lineNum="52" parent="globals/APIRequest" pc="268437729" symbol="onReceiveResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="29" lineNum="53" parent="globals/APIRequest" pc="268437737" symbol="onReceiveResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="29" lineNum="54" parent="globals/APIRequest" pc="268437759" symbol="onReceiveResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="29" lineNum="55" parent="globals/APIRequest" pc="268437768" symbol="onReceiveResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="29" lineNum="57" parent="globals/APIRequest" pc="268437790" symbol="onReceiveResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="30" lineNum="103" parent="globals/APIRequest" pc="268437818" symbol="parseDatetime"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="30" lineNum="104" parent="globals/APIRequest" pc="268437821" symbol="parseDatetime"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="30" lineNum="112" parent="globals/APIRequest" pc="268437994" symbol="parseDatetime"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="31" lineNum="26" parent="globals/APIRequest" pc="268437997" symbol="makeWebRequest"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="31" lineNum="27" parent="globals/APIRequest" pc="268438000" symbol="makeWebRequest"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="31" lineNum="28" parent="globals/APIRequest" pc="268438007" symbol="makeWebRequest"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="31" lineNum="29" parent="globals/APIRequest" pc="268438014" symbol="makeWebRequest"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="31" lineNum="30" parent="globals/APIRequest" pc="268438018" symbol="makeWebRequest"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="31" lineNum="38" parent="globals/APIRequest" pc="268438051" symbol="makeWebRequest"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="32" lineNum="17" parent="globals/APIRequest" pc="268438081" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="32" lineNum="18" parent="globals/APIRequest" pc="268438083" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="32" lineNum="19" parent="globals/APIRequest" pc="268438092" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="32" lineNum="21" parent="globals/APIRequest" pc="268438105" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="32" lineNum="23" parent="globals/APIRequest" pc="268438134" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="62" parent="globals/APIRequest" pc="268438153" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="63" parent="globals/APIRequest" pc="268438156" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="64" parent="globals/APIRequest" pc="268438180" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="65" parent="globals/APIRequest" pc="268438204" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="67" parent="globals/APIRequest" pc="268438228" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="68" parent="globals/APIRequest" pc="268438232" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="69" parent="globals/APIRequest" pc="268438255" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="71" parent="globals/APIRequest" pc="268438268" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="72" parent="globals/APIRequest" pc="268438278" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="73" parent="globals/APIRequest" pc="268438282" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="74" parent="globals/APIRequest" pc="268438305" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="75" parent="globals/APIRequest" pc="268438318" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="82" parent="globals/APIRequest" pc="268438420" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="96" parent="globals/APIRequest" pc="268438597" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="97" parent="globals/APIRequest" pc="268438621" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="98" parent="globals/APIRequest" pc="268438637" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="99" parent="globals/APIRequest" pc="268438653" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\APIRequest.mc" id="33" lineNum="100" parent="globals/APIRequest" pc="268438663" symbol="parseResponse"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="34" lineNum="109" parent="globals/Stations" pc="268438666" symbol="getDistance"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="34" lineNum="110" parent="globals/Stations" pc="268438669" symbol="getDistance"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="34" lineNum="111" parent="globals/Stations" pc="268438678" symbol="getDistance"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="34" lineNum="112" parent="globals/Stations" pc="268438689" symbol="getDistance"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="34" lineNum="113" parent="globals/Stations" pc="268438702" symbol="getDistance"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="75" parent="globals/Stations" pc="268438726" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="76" parent="globals/Stations" pc="268438728" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="77" parent="globals/Stations" pc="268438730" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="78" parent="globals/Stations" pc="268438749" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="79" parent="globals/Stations" pc="268438768" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="80" parent="globals/Stations" pc="268438787" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="81" parent="globals/Stations" pc="268438806" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="82" parent="globals/Stations" pc="268438825" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="83" parent="globals/Stations" pc="268438844" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="84" parent="globals/Stations" pc="268438863" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="85" parent="globals/Stations" pc="268438882" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="86" parent="globals/Stations" pc="268438901" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="87" parent="globals/Stations" pc="268438920" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="88" parent="globals/Stations" pc="268438939" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="89" parent="globals/Stations" pc="268438958" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="90" parent="globals/Stations" pc="268438977" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="77" parent="globals/Stations" pc="268438980" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="78" parent="globals/Stations" pc="268438986" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="79" parent="globals/Stations" pc="268438992" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="80" parent="globals/Stations" pc="268438998" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="81" parent="globals/Stations" pc="268439004" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="82" parent="globals/Stations" pc="268439010" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="83" parent="globals/Stations" pc="268439016" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="84" parent="globals/Stations" pc="268439022" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="85" parent="globals/Stations" pc="268439028" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="86" parent="globals/Stations" pc="268439034" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="87" parent="globals/Stations" pc="268439040" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="88" parent="globals/Stations" pc="268439046" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="89" parent="globals/Stations" pc="268439052" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="36" lineNum="90" parent="globals/Stations" pc="268439058" symbol="abbreviateName"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="37" lineNum="94" parent="globals/Stations" pc="268439063" symbol="getNearestStation"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="37" lineNum="95" parent="globals/Stations" pc="268439066" symbol="getNearestStation"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="37" lineNum="96" parent="globals/Stations" pc="268439073" symbol="getNearestStation"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="37" lineNum="97" parent="globals/Stations" pc="268439079" symbol="getNearestStation"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="37" lineNum="98" parent="globals/Stations" pc="268439099" symbol="getNearestStation"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="37" lineNum="99" parent="globals/Stations" pc="268439115" symbol="getNearestStation"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="37" lineNum="100" parent="globals/Stations" pc="268439165" symbol="getNearestStation"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="37" lineNum="101" parent="globals/Stations" pc="268439173" symbol="getNearestStation"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="37" lineNum="102" parent="globals/Stations" pc="268439177" symbol="getNearestStation"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="37" lineNum="105" parent="globals/Stations" pc="268439194" symbol="getNearestStation"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\Stations.mc" id="37" lineNum="106" parent="globals/Stations" pc="268439227" symbol="getNearestStation"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosViewDelegate.mc" id="38" lineNum="21" parent="globals/RenfeHorariosViewDelegate" pc="268439230" symbol="onMenu"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosViewDelegate.mc" id="38" lineNum="22" parent="globals/RenfeHorariosViewDelegate" pc="268439232" symbol="onMenu"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosViewDelegate.mc" id="39" lineNum="29" parent="globals/RenfeHorariosViewDelegate" pc="268439234" symbol="onPosition"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosViewDelegate.mc" id="39" lineNum="31" parent="globals/RenfeHorariosViewDelegate" pc="268439236" symbol="onPosition"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosViewDelegate.mc" id="39" lineNum="32" parent="globals/RenfeHorariosViewDelegate" pc="268439246" symbol="onPosition"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosViewDelegate.mc" id="39" lineNum="33" parent="globals/RenfeHorariosViewDelegate" pc="268439282" symbol="onPosition"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosViewDelegate.mc" id="39" lineNum="34" parent="globals/RenfeHorariosViewDelegate" pc="268439301" symbol="onPosition"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosViewDelegate.mc" id="39" lineNum="35" parent="globals/RenfeHorariosViewDelegate" pc="268439313" symbol="onPosition"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosViewDelegate.mc" id="40" lineNum="13" parent="globals/RenfeHorariosViewDelegate" pc="268439325" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosViewDelegate.mc" id="40" lineNum="14" parent="globals/RenfeHorariosViewDelegate" pc="268439327" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosViewDelegate.mc" id="40" lineNum="15" parent="globals/RenfeHorariosViewDelegate" pc="268439339" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosViewDelegate.mc" id="40" lineNum="16" parent="globals/RenfeHorariosViewDelegate" pc="268439348" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosViewDelegate.mc" id="40" lineNum="17" parent="globals/RenfeHorariosViewDelegate" pc="268439356" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosViewDelegate.mc" id="40" lineNum="18" parent="globals/RenfeHorariosViewDelegate" pc="268439375" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosViewDelegate.mc" id="41" lineNum="25" parent="globals/RenfeHorariosViewDelegate" pc="268439403" symbol="onSelect"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosViewDelegate.mc" id="41" lineNum="26" parent="globals/RenfeHorariosViewDelegate" pc="268439405" symbol="onSelect"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosView.mc" id="43" lineNum="14" parent="globals/RenfeHorariosView" pc="268439407" symbol="onLayout"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosView.mc" id="44" lineNum="8" parent="globals/RenfeHorariosView" pc="268439410" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosView.mc" id="44" lineNum="9" parent="globals/RenfeHorariosView" pc="268439412" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosView.mc" id="44" lineNum="10" parent="globals/RenfeHorariosView" pc="268439424" symbol="initialize"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosView.mc" id="46" lineNum="39" parent="globals/RenfeHorariosView" pc="268439437" symbol="onReceive"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosView.mc" id="46" lineNum="40" parent="globals/RenfeHorariosView" pc="268439439" symbol="onReceive"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosView.mc" id="46" lineNum="41" parent="globals/RenfeHorariosView" pc="268439455" symbol="onReceive"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosView.mc" id="46" lineNum="42" parent="globals/RenfeHorariosView" pc="268439464" symbol="onReceive"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosView.mc" id="47" lineNum="26" parent="globals/RenfeHorariosView" pc="268439479" symbol="onUpdate"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosView.mc" id="47" lineNum="27" parent="globals/RenfeHorariosView" pc="268439481" symbol="onUpdate"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosView.mc" id="47" lineNum="29" parent="globals/RenfeHorariosView" pc="268439497" symbol="onUpdate"/>
+        <entry filename="P:\\Projects\\RenfeHorarios\\source\\RenfeHorariosView.mc" id="47" lineNum="30" parent="globals/RenfeHorariosView" pc="268439513" symbol="onUpdate"/>
+        <entry filename="p:\\Projects\\RenfeHorarios\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="50" lineNum="13" parent="globals/Rez/Layouts" pc="268439553" symbol="MainLayout"/>
+        <entry filename="p:\\Projects\\RenfeHorarios\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="50" lineNum="14" parent="globals/Rez/Layouts" pc="268439564" symbol="MainLayout"/>
+        <entry filename="p:\\Projects\\RenfeHorarios\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="50" lineNum="16" parent="globals/Rez/Layouts" pc="268439664" symbol="MainLayout"/>
+        <entry filename="p:\\Projects\\RenfeHorarios\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="51" lineNum="21" parent="globals/Rez/Menus/MainMenu" pc="268439674" symbol="&lt;init&gt;"/>
+        <entry filename="p:\\Projects\\RenfeHorarios\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="52" lineNum="22" parent="globals/Rez/Menus/MainMenu" pc="268439686" symbol="initialize"/>
+        <entry filename="p:\\Projects\\RenfeHorarios\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="52" lineNum="23" parent="globals/Rez/Menus/MainMenu" pc="268439688" symbol="initialize"/>
+        <entry filename="p:\\Projects\\RenfeHorarios\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="52" lineNum="24" parent="globals/Rez/Menus/MainMenu" pc="268439700" symbol="initialize"/>
+        <entry filename="p:\\Projects\\RenfeHorarios\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="52" lineNum="25" parent="globals/Rez/Menus/MainMenu" pc="268439719" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="45" method="true" symbol="openNearestStationMenu"/>
+        <entry id="8389346" symbol="text"/>
+        <entry id="14" object="true" symbol="RenfeHorariosView"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="46" symbol="trains"/>
+        <entry id="5" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="48" method="true" symbol="MainLayout"/>
+        <entry field="true" id="41" symbol="APIRequestInstance"/>
+        <entry id="9" object="true" symbol="NearestStationInputDelegate"/>
+        <entry field="true" id="23" symbol="timeLeft"/>
+        <entry field="true" id="8388938" symbol="month"/>
+        <entry field="true" id="8389310" symbol="position"/>
+        <entry field="true" id="8389250" symbol="timestamp"/>
+        <entry field="true" id="31" symbol="stationSchedule"/>
+        <entry id="8391941" symbol="theme"/>
+        <entry id="15" object="true" symbol="RenfeHorariosViewDelegate"/>
+        <entry field="true" id="22" symbol="stationName"/>
+        <entry id="43" method="true" symbol="onPosition"/>
+        <entry id="36" method="true" symbol="parseResponse"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="52" symbol="FavoriteStationB"/>
+        <entry field="true" id="51" symbol="FavoriteStationA"/>
+        <entry id="8390751" method="true" symbol="onFooter"/>
+        <entry id="60" symbol="line"/>
+        <entry field="true" id="50" symbol="AppName"/>
+        <entry id="8389339" symbol="second"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389594" symbol="headers"/>
+        <entry id="8389080" method="true" symbol="onMenu"/>
+        <entry field="true" id="32" symbol="endpoint"/>
+        <entry id="8389338" symbol="minute"/>
+        <entry id="8390756" symbol="drawable"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="59" symbol="trainType"/>
+        <entry field="true" id="29" symbol="mainView"/>
+        <entry id="8390425" module="true" symbol="Properties"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="16" object="true" symbol="StationSchedule"/>
+        <entry id="57" symbol="destinationStationAbbreviation"/>
+        <entry field="true" id="37" symbol="stationId"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389314" symbol="latitude"/>
+        <entry id="8389348" symbol="font"/>
+        <entry field="true" id="8389067" symbol="height"/>
+        <entry id="64" symbol="item_2"/>
+        <entry id="63" symbol="item_1"/>
+        <entry id="27" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="39" symbol="byId"/>
+        <entry field="true" id="8389066" symbol="width"/>
+        <entry id="62" symbol="destinationStationName"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="11" object="true" symbol="NearestStationMenuItemDrawable"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="40" method="true" symbol="getNearestStation"/>
+        <entry id="8388637" module="true" symbol="Communications"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="49" object="true" symbol="MainMenu"/>
+        <entry field="true" id="53" symbol="FilterFavoriteStations"/>
+        <entry id="8389844" symbol="responseType"/>
+        <entry field="true" id="28" symbol="departureTime"/>
+        <entry id="17" object="true" symbol="Stations"/>
+        <entry id="8388786" method="true" symbol="method"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8389315" symbol="longitude"/>
+        <entry field="true" id="30" symbol="mainViewDelegate"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry id="12" object="true" symbol="RenfeHorariosApp"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="44" method="true" symbol="onReceive"/>
+        <entry field="true" id="8388720" symbol="hour"/>
+        <entry field="true" id="33" symbol="notify"/>
+        <entry id="56" symbol="departureDatetime"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="8391812" symbol="message"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="47" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="24" method="true" symbol="updateLabels"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry field="true" id="25" symbol="userPosition"/>
+        <entry id="8389835" method="true" symbol="makeWebRequest"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="42" symbol="gpsReady"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="10" object="true" symbol="NearestStationMenu"/>
+        <entry id="7" module="true" symbol="globals/Stations/&lt;statics&gt;"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="19" object="true" symbol="TrainLineMenuItemDrawable"/>
+        <entry field="true" id="8388892" symbol="name"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry field="true" id="54" symbol="Renfe"/>
+        <entry id="8391826" method="true" symbol="getDistance"/>
+        <entry id="38" method="true" symbol="abbreviateName"/>
+        <entry id="8390753" symbol="footer"/>
+        <entry id="34" method="true" symbol="onReceiveResponse"/>
+        <entry id="13" object="true" symbol="RenfeHorariosMenuDelegate"/>
+        <entry id="58" symbol="stations"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="8388939" symbol="day"/>
+        <entry field="true" id="20" symbol="departureMoment"/>
+        <entry field="true" id="55" symbol="Station"/>
+        <entry id="18" object="true" symbol="TrainLineMenu"/>
+        <entry field="true" id="8388940" symbol="year"/>
+        <entry id="26" module="true" symbol="Layouts"/>
+        <entry id="8" object="true" symbol="APIRequest"/>
+        <entry id="8388642" module="true" symbol="Position"/>
+        <entry id="35" method="true" symbol="parseDatetime"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry field="true" id="21" symbol="platform"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8389642" symbol="title"/>
+        <entry id="61" symbol="destinationStationId"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268436332" name="redraw" stackId="1" startPc="268436194"/>
+        <entry endPc="268436331" name="now" stackId="2" startPc="268436197"/>
+        <entry endPc="268436331" name="durationDiference" stackId="3" startPc="268436197"/>
+        <entry arg="true" endPc="268436439" name="_stationName" stackId="1" startPc="268436333"/>
+        <entry arg="true" endPc="268436439" name="_departureMoment" stackId="2" startPc="268436333"/>
+        <entry arg="true" endPc="268436439" name="_platform" stackId="3" startPc="268436333"/>
+        <entry arg="true" endPc="268436439" name="_userPosition" stackId="4" startPc="268436333"/>
+        <entry arg="true" endPc="268436564" name="dc" stackId="1" startPc="268436440"/>
+        <entry arg="true" endPc="268436703" name="trainStations" stackId="1" startPc="268436565"/>
+        <entry endPc="268436702" name="stationIndex" stackId="2" startPc="268436603"/>
+        <entry endPc="268436692" name="station" stackId="3" startPc="268436603"/>
+        <entry arg="true" endPc="268436741" name="item" stackId="1" startPc="268436719"/>
+        <entry arg="true" endPc="268436820" name="_departureTime" stackId="1" startPc="268436742"/>
+        <entry arg="true" endPc="268436820" name="_stationName" stackId="2" startPc="268436742"/>
+        <entry arg="true" endPc="268436901" name="dc" stackId="1" startPc="268436821"/>
+        <entry arg="true" endPc="268437037" name="state" stackId="1" startPc="268437019"/>
+        <entry arg="true" endPc="268437380" name="stationData" stackId="1" startPc="268437038"/>
+        <entry arg="true" endPc="268437380" name="position" stackId="2" startPc="268437038"/>
+        <entry endPc="268437379" name="trainIndex" stackId="3" startPc="268437263"/>
+        <entry endPc="268437369" name="train" stackId="4" startPc="268437263"/>
+        <entry endPc="268437517" name="menu" stackId="1" startPc="268437384"/>
+        <entry arg="true" endPc="268437542" name="data" stackId="1" startPc="268437519"/>
+        <entry arg="true" endPc="268437633" name="item" stackId="1" startPc="268437543"/>
+        <entry endPc="268437632" name="trainLine" stackId="2" startPc="268437546"/>
+        <entry arg="true" endPc="268437817" name="responseCode" stackId="1" startPc="268437634"/>
+        <entry arg="true" endPc="268437817" name="data" stackId="2" startPc="268437634"/>
+        <entry endPc="268437725" name="stationSchedule" stackId="3" startPc="268437646"/>
+        <entry arg="true" endPc="268437996" name="textDatetime" stackId="1" startPc="268437818"/>
+        <entry endPc="268437996" name="moment" stackId="2" startPc="268437821"/>
+        <entry endPc="268438079" name="url" stackId="1" startPc="268438000"/>
+        <entry endPc="268438079" name="callback" stackId="2" startPc="268438000"/>
+        <entry endPc="268438079" name="parameters" stackId="3" startPc="268438000"/>
+        <entry endPc="268438079" name="options" stackId="4" startPc="268438000"/>
+        <entry arg="true" endPc="268438152" name="handler" stackId="1" startPc="268438081"/>
+        <entry arg="true" endPc="268438152" name="positionInfo" stackId="2" startPc="268438081"/>
+        <entry arg="true" endPc="268438665" name="data" stackId="1" startPc="268438153"/>
+        <entry endPc="268438665" name="filterFavorites" stackId="2" startPc="268438156"/>
+        <entry endPc="268438665" name="favoriteStationA" stackId="3" startPc="268438156"/>
+        <entry endPc="268438665" name="favoriteStationB" stackId="4" startPc="268438156"/>
+        <entry endPc="268438665" name="trains" stackId="5" startPc="268438156"/>
+        <entry endPc="268438596" name="trainIndex" stackId="6" startPc="268438255"/>
+        <entry endPc="268438586" name="train" stackId="7" startPc="268438255"/>
+        <entry endPc="268438583" name="trainStations" stackId="8" startPc="268438278"/>
+        <entry endPc="268438419" name="stationIndex" stackId="9" startPc="268438305"/>
+        <entry endPc="268438409" name="station" stackId="10" startPc="268438305"/>
+        <entry endPc="268438665" name="schedule" stackId="11" startPc="268438156"/>
+        <entry arg="true" endPc="268438725" name="origin" stackId="1" startPc="268438666"/>
+        <entry arg="true" endPc="268438725" name="latitudeLongitude" stackId="2" startPc="268438666"/>
+        <entry endPc="268438725" name="originDegrees" stackId="3" startPc="268438669"/>
+        <entry endPc="268438725" name="latitudeDelta" stackId="4" startPc="268438669"/>
+        <entry endPc="268438725" name="longitudeDelta" stackId="5" startPc="268438669"/>
+        <entry arg="true" endPc="268439062" name="name" stackId="1" startPc="268438726"/>
+        <entry arg="true" endPc="268439229" name="position" stackId="1" startPc="268439063"/>
+        <entry endPc="268439229" name="closestStationId" stackId="2" startPc="268439066"/>
+        <entry endPc="268439229" name="closestDistance" stackId="3" startPc="268439066"/>
+        <entry endPc="268439193" name="stationIndex" stackId="4" startPc="268439099"/>
+        <entry endPc="268439183" name="stationId" stackId="5" startPc="268439099"/>
+        <entry endPc="268439183" name="distance" stackId="6" startPc="268439099"/>
+        <entry arg="true" endPc="268439324" name="info" stackId="1" startPc="268439234"/>
+        <entry arg="true" endPc="268439402" name="handler" stackId="1" startPc="268439325"/>
+        <entry arg="true" endPc="268439478" name="args" stackId="1" startPc="268439437"/>
+        <entry arg="true" endPc="268439552" name="dc" stackId="1" startPc="268439479"/>
+        <entry arg="true" endPc="268439673" name="dc" stackId="1" startPc="268439553"/>
+        <entry endPc="268439673" name="rez_cmp_local_text_1011752479" stackId="2" startPc="268439564"/>
+    </localVars>
+    <deviceInfo deviceVersion="35026752466eceaff46011f2f33580ace85b3091" partNumber="006-B4426-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Renfe"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Station"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="FavoriteStationA"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="FavoriteStationB"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="FilterFavoriteStations"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="76" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/NearestStationMenuItemDrawable" offset="233" parentId="globals" symbolId="NearestStationMenuItemDrawable" type="class"/>
+        <dataEntry label="globals/TrainLineMenu" offset="340" parentId="globals" symbolId="TrainLineMenu" type="class"/>
+        <dataEntry label="globals/Rez" offset="384" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/RenfeHorariosMenuDelegate" offset="446" parentId="globals" symbolId="RenfeHorariosMenuDelegate" type="class"/>
+        <dataEntry label="globals/TrainLineMenuItemDrawable" offset="499" parentId="globals" symbolId="TrainLineMenuItemDrawable" type="class"/>
+        <dataEntry label="globals/RenfeHorariosApp" offset="579" parentId="globals" symbolId="RenfeHorariosApp" type="class"/>
+        <dataEntry label="globals/NearestStationMenu" offset="668" parentId="globals" symbolId="NearestStationMenu" type="class"/>
+        <dataEntry label="globals/NearestStationInputDelegate" offset="721" parentId="globals" symbolId="NearestStationInputDelegate" type="class"/>
+        <dataEntry label="globals/APIRequest" offset="792" parentId="globals" symbolId="APIRequest" type="class"/>
+        <dataEntry label="globals/Stations" offset="908" parentId="globals" symbolId="Stations" type="class"/>
+        <dataEntry label="globals/Stations/&lt;statics&gt;" offset="956" parentId="Stations" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/RenfeHorariosViewDelegate" offset="1014" parentId="globals" symbolId="RenfeHorariosViewDelegate" type="class"/>
+        <dataEntry label="globals/RenfeHorariosView" offset="1112" parentId="globals" symbolId="RenfeHorariosView" type="class"/>
+        <dataEntry label="globals/StationSchedule" offset="1219" parentId="globals" symbolId="StationSchedule" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1290" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1325" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1360" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1395" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1475" parentId="Menus" symbolId="MainMenu" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="NearestStationMenuItemDrawable" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435483" name="&lt;init&gt;" parent="TrainLineMenu" startPc="268435472">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435504" name="getApp" startPc="268435484">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="Rez" startPc="268435505">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="RenfeHorariosMenuDelegate" startPc="268435525">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435548" name="&lt;init&gt;" parent="TrainLineMenuItemDrawable" startPc="268435537">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435560" name="&lt;init&gt;" parent="RenfeHorariosApp" startPc="268435549">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435572" name="&lt;init&gt;" parent="NearestStationMenu" startPc="268435561">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435584" name="&lt;init&gt;" parent="NearestStationInputDelegate" startPc="268435573">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="APIRequest">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Stations">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436169" name="&lt;init&gt;" parent="globals/Stations" startPc="268435585">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436181" name="&lt;init&gt;" parent="RenfeHorariosViewDelegate" startPc="268436170">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436193" name="&lt;init&gt;" parent="RenfeHorariosView" startPc="268436182">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="StationSchedule">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436332" name="updateLabels" parent="NearestStationMenuItemDrawable" startPc="268436194">
+            <param id="redraw"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436439" name="initialize" parent="NearestStationMenuItemDrawable" startPc="268436333">
+            <param id="_stationName"/>
+            <param id="_departureMoment"/>
+            <param id="_platform"/>
+            <param id="_userPosition"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436564" name="draw" parent="NearestStationMenuItemDrawable" startPc="268436440">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436703" name="initialize" parent="TrainLineMenu" startPc="268436565">
+            <param id="trainStations"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436718" name="initialize" parent="RenfeHorariosMenuDelegate" startPc="268436704">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436741" name="onSelect" parent="RenfeHorariosMenuDelegate" startPc="268436719">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436820" name="initialize" parent="TrainLineMenuItemDrawable" startPc="268436742">
+            <param id="_departureTime"/>
+            <param id="_stationName"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436901" name="draw" parent="TrainLineMenuItemDrawable" startPc="268436821">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436904" name="onStart" parent="RenfeHorariosApp" startPc="268436902">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437003" name="getInitialView" parent="RenfeHorariosApp" startPc="268436905">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437018" name="initialize" parent="RenfeHorariosApp" startPc="268437004">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437037" name="onStop" parent="RenfeHorariosApp" startPc="268437019">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437380" name="initialize" parent="NearestStationMenu" startPc="268437038">
+            <param id="stationData"/>
+            <param id="position"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437518" name="onFooter" parent="NearestStationInputDelegate" startPc="268437381">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437542" name="initialize" parent="NearestStationInputDelegate" startPc="268437519">
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437633" name="onSelect" parent="NearestStationInputDelegate" startPc="268437543">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437817" name="onReceiveResponse" parent="APIRequest" startPc="268437634">
+            <param id="responseCode"/>
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437996" name="parseDatetime" parent="APIRequest" startPc="268437818">
+            <param id="textDatetime"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438080" name="makeWebRequest" parent="APIRequest" startPc="268437997">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438152" name="initialize" parent="APIRequest" startPc="268438081">
+            <param id="handler"/>
+            <param id="positionInfo"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438665" name="parseResponse" parent="APIRequest" startPc="268438153">
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438725" name="getDistance" parent="Stations" startPc="268438666">
+            <param id="origin"/>
+            <param id="latitudeLongitude"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="Stations">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439062" name="abbreviateName" parent="Stations" startPc="268438726">
+            <param id="name"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439229" name="getNearestStation" parent="Stations" startPc="268439063">
+            <param id="position"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439233" name="onMenu" parent="RenfeHorariosViewDelegate" startPc="268439230">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439324" name="onPosition" parent="RenfeHorariosViewDelegate" startPc="268439234">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439402" name="initialize" parent="RenfeHorariosViewDelegate" startPc="268439325">
+            <param id="handler"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439406" name="onSelect" parent="RenfeHorariosViewDelegate" startPc="268439403">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="RenfeHorariosView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439409" name="onLayout" parent="RenfeHorariosView" startPc="268439407">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439436" name="initialize" parent="RenfeHorariosView" startPc="268439410">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="RenfeHorariosView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439478" name="onReceive" parent="RenfeHorariosView" startPc="268439437">
+            <param id="args"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439552" name="onUpdate" parent="RenfeHorariosView" startPc="268439479">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="openNearestStationMenu" parent="RenfeHorariosView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="StationSchedule">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439673" name="MainLayout" parent="Layouts" startPc="268439553">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439685" name="&lt;init&gt;" parent="MainMenu" startPc="268439674">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439738" name="initialize" parent="MainMenu" startPc="268439686">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

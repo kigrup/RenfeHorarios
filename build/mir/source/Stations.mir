@@ -1,0 +1,536 @@
+[ @file = "P:\Projects\RenfeHorarios\source\Stations.mc"; @line = 1; ]
+using Toybox.Position;
+[ @file = "P:\Projects\RenfeHorarios\source\Stations.mc"; @line = 2; ]
+using Toybox.Math;
+[ @file = "P:\Projects\RenfeHorarios\source\Stations.mc"; @line = 3; ]
+using Toybox.System;
+[ @file = "P:\Projects\RenfeHorarios\source\Stations.mc"; @line = 4; ]
+using Toybox.Lang;
+[ @file = "P:\Projects\RenfeHorarios\source\Stations.mc"; @line = 6; ]
+class Stations{
+    [ @file = "P:\Projects\RenfeHorarios\source\Stations.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\Stations.mc"; @line = 6; ]
+    static
+    <init> {
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 7 17 ]
+        %tmp.1 = newd 13;
+        %tmp.2 = "71600";
+        %tmp.3 = newd 3;
+        %tmp.5 = const :name;
+        %tmp.6 = "Sant Vicenç de Calders";
+        %tmp.7 = dup %tmp.3;
+        %tmp.8 = aputv %tmp.7 %tmp.5 %tmp.6;
+        %tmp.10 = const :latitude;
+        %tmp.11 = 41.1861;
+        %tmp.12 = dup %tmp.8;
+        %tmp.13 = aputv %tmp.12 %tmp.10 %tmp.11;
+        %tmp.15 = const :longitude;
+        %tmp.16 = 1.5246;
+        %tmp.17 = dup %tmp.13;
+        %tmp.18 = aputv %tmp.17 %tmp.15 %tmp.16;
+        %tmp.19 = dup %tmp.1;
+        %tmp.20 = aputv %tmp.19 %tmp.2 %tmp.18;
+        %tmp.21 = "71601";
+        %tmp.22 = newd 3;
+        %tmp.24 = const :name;
+        %tmp.25 = "Calafell";
+        %tmp.26 = dup %tmp.22;
+        %tmp.27 = aputv %tmp.26 %tmp.24 %tmp.25;
+        %tmp.29 = const :latitude;
+        %tmp.30 = 41.1894;
+        %tmp.31 = dup %tmp.27;
+        %tmp.32 = aputv %tmp.31 %tmp.29 %tmp.30;
+        %tmp.34 = const :longitude;
+        %tmp.35 = 1.5749;
+        %tmp.36 = dup %tmp.32;
+        %tmp.37 = aputv %tmp.36 %tmp.34 %tmp.35;
+        %tmp.38 = dup %tmp.20;
+        %tmp.39 = aputv %tmp.38 %tmp.21 %tmp.37;
+        %tmp.40 = "71602";
+        %tmp.41 = newd 3;
+        %tmp.43 = const :name;
+        %tmp.44 = "Segur de Calafell";
+        %tmp.45 = dup %tmp.41;
+        %tmp.46 = aputv %tmp.45 %tmp.43 %tmp.44;
+        %tmp.48 = const :latitude;
+        %tmp.49 = 41.1924;
+        %tmp.50 = dup %tmp.46;
+        %tmp.51 = aputv %tmp.50 %tmp.48 %tmp.49;
+        %tmp.53 = const :longitude;
+        %tmp.54 = 1.6064;
+        %tmp.55 = dup %tmp.51;
+        %tmp.56 = aputv %tmp.55 %tmp.53 %tmp.54;
+        %tmp.57 = dup %tmp.39;
+        %tmp.58 = aputv %tmp.57 %tmp.40 %tmp.56;
+        %tmp.59 = "71603";
+        %tmp.60 = newd 3;
+        %tmp.62 = const :name;
+        %tmp.63 = "Cunit";
+        %tmp.64 = dup %tmp.60;
+        %tmp.65 = aputv %tmp.64 %tmp.62 %tmp.63;
+        %tmp.67 = const :latitude;
+        %tmp.68 = 41.1948;
+        %tmp.69 = dup %tmp.65;
+        %tmp.70 = aputv %tmp.69 %tmp.67 %tmp.68;
+        %tmp.72 = const :longitude;
+        %tmp.73 = 1.6320;
+        %tmp.74 = dup %tmp.70;
+        %tmp.75 = aputv %tmp.74 %tmp.72 %tmp.73;
+        %tmp.76 = dup %tmp.58;
+        %tmp.77 = aputv %tmp.76 %tmp.59 %tmp.75;
+        %tmp.78 = "71604";
+        %tmp.79 = newd 3;
+        %tmp.81 = const :name;
+        %tmp.82 = "Cubelles";
+        %tmp.83 = dup %tmp.79;
+        %tmp.84 = aputv %tmp.83 %tmp.81 %tmp.82;
+        %tmp.86 = const :latitude;
+        %tmp.87 = 41.2041;
+        %tmp.88 = dup %tmp.84;
+        %tmp.89 = aputv %tmp.88 %tmp.86 %tmp.87;
+        %tmp.91 = const :longitude;
+        %tmp.92 = 1.6759;
+        %tmp.93 = dup %tmp.89;
+        %tmp.94 = aputv %tmp.93 %tmp.91 %tmp.92;
+        %tmp.95 = dup %tmp.77;
+        %tmp.96 = aputv %tmp.95 %tmp.78 %tmp.94;
+        %tmp.97 = "71700";
+        %tmp.98 = newd 3;
+        %tmp.100 = const :name;
+        %tmp.101 = "Vilanova i la Geltrú";
+        %tmp.102 = dup %tmp.98;
+        %tmp.103 = aputv %tmp.102 %tmp.100 %tmp.101;
+        %tmp.105 = const :latitude;
+        %tmp.106 = 41.2202;
+        %tmp.107 = dup %tmp.103;
+        %tmp.108 = aputv %tmp.107 %tmp.105 %tmp.106;
+        %tmp.110 = const :longitude;
+        %tmp.111 = 1.7308;
+        %tmp.112 = dup %tmp.108;
+        %tmp.113 = aputv %tmp.112 %tmp.110 %tmp.111;
+        %tmp.114 = dup %tmp.96;
+        %tmp.115 = aputv %tmp.114 %tmp.97 %tmp.113;
+        %tmp.116 = "71701";
+        %tmp.117 = newd 3;
+        %tmp.119 = const :name;
+        %tmp.120 = "Sitges";
+        %tmp.121 = dup %tmp.117;
+        %tmp.122 = aputv %tmp.121 %tmp.119 %tmp.120;
+        %tmp.124 = const :latitude;
+        %tmp.125 = 41.2392;
+        %tmp.126 = dup %tmp.122;
+        %tmp.127 = aputv %tmp.126 %tmp.124 %tmp.125;
+        %tmp.129 = const :longitude;
+        %tmp.130 = 1.8096;
+        %tmp.131 = dup %tmp.127;
+        %tmp.132 = aputv %tmp.131 %tmp.129 %tmp.130;
+        %tmp.133 = dup %tmp.115;
+        %tmp.134 = aputv %tmp.133 %tmp.116 %tmp.132;
+        %tmp.135 = "71705";
+        %tmp.136 = newd 3;
+        %tmp.138 = const :name;
+        %tmp.139 = "Castelldefels";
+        %tmp.140 = dup %tmp.136;
+        %tmp.141 = aputv %tmp.140 %tmp.138 %tmp.139;
+        %tmp.143 = const :latitude;
+        %tmp.144 = 41.2787;
+        %tmp.145 = dup %tmp.141;
+        %tmp.146 = aputv %tmp.145 %tmp.143 %tmp.144;
+        %tmp.148 = const :longitude;
+        %tmp.149 = 1.9793;
+        %tmp.150 = dup %tmp.146;
+        %tmp.151 = aputv %tmp.150 %tmp.148 %tmp.149;
+        %tmp.152 = dup %tmp.134;
+        %tmp.153 = aputv %tmp.152 %tmp.135 %tmp.151;
+        %tmp.154 = "71706";
+        %tmp.155 = newd 3;
+        %tmp.157 = const :name;
+        %tmp.158 = "Gavà";
+        %tmp.159 = dup %tmp.155;
+        %tmp.160 = aputv %tmp.159 %tmp.157 %tmp.158;
+        %tmp.162 = const :latitude;
+        %tmp.163 = 41.3031;
+        %tmp.164 = dup %tmp.160;
+        %tmp.165 = aputv %tmp.164 %tmp.162 %tmp.163;
+        %tmp.167 = const :longitude;
+        %tmp.168 = 2.0104;
+        %tmp.169 = dup %tmp.165;
+        %tmp.170 = aputv %tmp.169 %tmp.167 %tmp.168;
+        %tmp.171 = dup %tmp.153;
+        %tmp.172 = aputv %tmp.171 %tmp.154 %tmp.170;
+        %tmp.173 = "71709";
+        %tmp.174 = newd 3;
+        %tmp.176 = const :name;
+        %tmp.177 = "Viladecans";
+        %tmp.178 = dup %tmp.174;
+        %tmp.179 = aputv %tmp.178 %tmp.176 %tmp.177;
+        %tmp.181 = const :latitude;
+        %tmp.182 = 41.3092;
+        %tmp.183 = dup %tmp.179;
+        %tmp.184 = aputv %tmp.183 %tmp.181 %tmp.182;
+        %tmp.186 = const :longitude;
+        %tmp.187 = 2.0274;
+        %tmp.188 = dup %tmp.184;
+        %tmp.189 = aputv %tmp.188 %tmp.186 %tmp.187;
+        %tmp.190 = dup %tmp.172;
+        %tmp.191 = aputv %tmp.190 %tmp.173 %tmp.189;
+        %tmp.192 = "71801";
+        %tmp.193 = newd 3;
+        %tmp.195 = const :name;
+        %tmp.196 = "Barcelona-Sants";
+        %tmp.197 = dup %tmp.193;
+        %tmp.198 = aputv %tmp.197 %tmp.195 %tmp.196;
+        %tmp.200 = const :latitude;
+        %tmp.201 = 41.3792;
+        %tmp.202 = dup %tmp.198;
+        %tmp.203 = aputv %tmp.202 %tmp.200 %tmp.201;
+        %tmp.205 = const :longitude;
+        %tmp.206 = 2.1403;
+        %tmp.207 = dup %tmp.203;
+        %tmp.208 = aputv %tmp.207 %tmp.205 %tmp.206;
+        %tmp.209 = dup %tmp.191;
+        %tmp.210 = aputv %tmp.209 %tmp.192 %tmp.208;
+        %tmp.211 = "71802";
+        %tmp.212 = newd 3;
+        %tmp.214 = const :name;
+        %tmp.215 = "Barcelona-Passeig de Gràcia";
+        %tmp.216 = dup %tmp.212;
+        %tmp.217 = aputv %tmp.216 %tmp.214 %tmp.215;
+        %tmp.219 = const :latitude;
+        %tmp.220 = 41.3920;
+        %tmp.221 = dup %tmp.217;
+        %tmp.222 = aputv %tmp.221 %tmp.219 %tmp.220;
+        %tmp.224 = const :longitude;
+        %tmp.225 = 2.1653;
+        %tmp.226 = dup %tmp.222;
+        %tmp.227 = aputv %tmp.226 %tmp.224 %tmp.225;
+        %tmp.228 = dup %tmp.210;
+        %tmp.229 = aputv %tmp.228 %tmp.211 %tmp.227;
+        %tmp.230 = "79400";
+        %tmp.231 = newd 3;
+        %tmp.233 = const :name;
+        %tmp.234 = "Barcelona-Estació de França";
+        %tmp.235 = dup %tmp.231;
+        %tmp.236 = aputv %tmp.235 %tmp.233 %tmp.234;
+        %tmp.238 = const :latitude;
+        %tmp.239 = 41.3843;
+        %tmp.240 = dup %tmp.236;
+        %tmp.241 = aputv %tmp.240 %tmp.238 %tmp.239;
+        %tmp.243 = const :longitude;
+        %tmp.244 = 2.1854;
+        %tmp.245 = dup %tmp.241;
+        %tmp.246 = aputv %tmp.245 %tmp.243 %tmp.244;
+        %tmp.247 = dup %tmp.229;
+        %tmp.248 = aputv %tmp.247 %tmp.230 %tmp.246;
+        putv self :byId %tmp.248;
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\Stations.mc"; @line = 7; @position = 17; ]
+    static
+    const byId;
+    [ @file = "P:\Projects\RenfeHorarios\source\Stations.mc"; @line = 75; ]
+    static
+    function abbreviateName(name) {
+P_Projects_RenfeHorarios_source_Stations_mc_75_41_92_4_start:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 76 8 ]
+        %tmp.2 = lgetv %name;
+        push %tmp.2;
+        switch %tmp.2 @P_Projects_RenfeHorarios_source_Stations_mc_76_8_91_8_switchStmtEnd;
+P_Projects_RenfeHorarios_source_Stations_mc_76_8_91_8_switchStmtBegin:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 77 12 ]
+        %tmp.3 = dup %tmp.2;
+        %tmp.4 = "Sant Vicenç de Calders";
+        %tmp.5 = getv function %tmp.3 :equals;
+        %tmp.6 = invoke %tmp.3 %tmp.5 (%tmp.4);
+        bt %tmp.6 @P_Projects_RenfeHorarios_source_Stations_mc_77_12_77_67_switchCase;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 78 12 ]
+        %tmp.7 = dup %tmp.2;
+        %tmp.8 = "Calafell";
+        %tmp.9 = getv function %tmp.7 :equals;
+        %tmp.10 = invoke %tmp.7 %tmp.9 (%tmp.8);
+        bt %tmp.10 @P_Projects_RenfeHorarios_source_Stations_mc_78_12_78_65_switchCase;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 79 12 ]
+        %tmp.11 = dup %tmp.2;
+        %tmp.12 = "Segur de Calafell";
+        %tmp.13 = getv function %tmp.11 :equals;
+        %tmp.14 = invoke %tmp.11 %tmp.13 (%tmp.12);
+        bt %tmp.14 @P_Projects_RenfeHorarios_source_Stations_mc_79_12_79_74_switchCase;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 80 12 ]
+        %tmp.15 = dup %tmp.2;
+        %tmp.16 = "Cunit";
+        %tmp.17 = getv function %tmp.15 :equals;
+        %tmp.18 = invoke %tmp.15 %tmp.17 (%tmp.16);
+        bt %tmp.18 @P_Projects_RenfeHorarios_source_Stations_mc_80_12_80_62_switchCase;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 81 12 ]
+        %tmp.19 = dup %tmp.2;
+        %tmp.20 = "Cubelles";
+        %tmp.21 = getv function %tmp.19 :equals;
+        %tmp.22 = invoke %tmp.19 %tmp.21 (%tmp.20);
+        bt %tmp.22 @P_Projects_RenfeHorarios_source_Stations_mc_81_12_81_65_switchCase;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 82 12 ]
+        %tmp.23 = dup %tmp.2;
+        %tmp.24 = "Vilanova i la Geltrú";
+        %tmp.25 = getv function %tmp.23 :equals;
+        %tmp.26 = invoke %tmp.23 %tmp.25 (%tmp.24);
+        bt %tmp.26 @P_Projects_RenfeHorarios_source_Stations_mc_82_12_82_65_switchCase;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 83 12 ]
+        %tmp.27 = dup %tmp.2;
+        %tmp.28 = "Sitges";
+        %tmp.29 = getv function %tmp.27 :equals;
+        %tmp.30 = invoke %tmp.27 %tmp.29 (%tmp.28);
+        bt %tmp.30 @P_Projects_RenfeHorarios_source_Stations_mc_83_12_83_63_switchCase;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 84 12 ]
+        %tmp.31 = dup %tmp.2;
+        %tmp.32 = "Castelldefels";
+        %tmp.33 = getv function %tmp.31 :equals;
+        %tmp.34 = invoke %tmp.31 %tmp.33 (%tmp.32);
+        bt %tmp.34 @P_Projects_RenfeHorarios_source_Stations_mc_84_12_84_70_switchCase;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 85 12 ]
+        %tmp.35 = dup %tmp.2;
+        %tmp.36 = "Gavà";
+        %tmp.37 = getv function %tmp.35 :equals;
+        %tmp.38 = invoke %tmp.35 %tmp.37 (%tmp.36);
+        bt %tmp.38 @P_Projects_RenfeHorarios_source_Stations_mc_85_12_85_61_switchCase;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 86 12 ]
+        %tmp.39 = dup %tmp.2;
+        %tmp.40 = "Viladecans";
+        %tmp.41 = getv function %tmp.39 :equals;
+        %tmp.42 = invoke %tmp.39 %tmp.41 (%tmp.40);
+        bt %tmp.42 @P_Projects_RenfeHorarios_source_Stations_mc_86_12_86_67_switchCase;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 87 12 ]
+        %tmp.43 = dup %tmp.2;
+        %tmp.44 = "Barcelona-Sants";
+        %tmp.45 = getv function %tmp.43 :equals;
+        %tmp.46 = invoke %tmp.43 %tmp.45 (%tmp.44);
+        bt %tmp.46 @P_Projects_RenfeHorarios_source_Stations_mc_87_12_87_67_switchCase;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 88 12 ]
+        %tmp.47 = dup %tmp.2;
+        %tmp.48 = "Barcelona-Passeig de Gràcia";
+        %tmp.49 = getv function %tmp.47 :equals;
+        %tmp.50 = invoke %tmp.47 %tmp.49 (%tmp.48);
+        bt %tmp.50 @P_Projects_RenfeHorarios_source_Stations_mc_88_12_88_69_switchCase;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 89 12 ]
+        %tmp.51 = dup %tmp.2;
+        %tmp.52 = "Barcelona-Estació de França";
+        %tmp.53 = getv function %tmp.51 :equals;
+        %tmp.54 = invoke %tmp.51 %tmp.53 (%tmp.52);
+        bt %tmp.54 @P_Projects_RenfeHorarios_source_Stations_mc_89_12_89_66_switchCase;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 90 12 ]
+P_Projects_RenfeHorarios_source_Stations_mc_76_8_91_8_switchStmtDefault:
+        goto @P_Projects_RenfeHorarios_source_Stations_mc_76_8_91_8_defaultCodeBegin;
+P_Projects_RenfeHorarios_source_Stations_mc_77_12_77_67_switchCase:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 77 48 ]
+        %tmp.55 = "St. Vicenç";
+        ret %tmp.55;
+P_Projects_RenfeHorarios_source_Stations_mc_78_12_78_65_switchCase:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 78 48 ]
+        %tmp.56 = "Calafell";
+        ret %tmp.56;
+P_Projects_RenfeHorarios_source_Stations_mc_79_12_79_74_switchCase:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 79 48 ]
+        %tmp.57 = "Segur de Calafell";
+        ret %tmp.57;
+P_Projects_RenfeHorarios_source_Stations_mc_80_12_80_62_switchCase:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 80 48 ]
+        %tmp.58 = "Cunit";
+        ret %tmp.58;
+P_Projects_RenfeHorarios_source_Stations_mc_81_12_81_65_switchCase:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 81 48 ]
+        %tmp.59 = "Cubelles";
+        ret %tmp.59;
+P_Projects_RenfeHorarios_source_Stations_mc_82_12_82_65_switchCase:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 82 48 ]
+        %tmp.60 = "Vilanova";
+        ret %tmp.60;
+P_Projects_RenfeHorarios_source_Stations_mc_83_12_83_63_switchCase:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 83 48 ]
+        %tmp.61 = "Sitges";
+        ret %tmp.61;
+P_Projects_RenfeHorarios_source_Stations_mc_84_12_84_70_switchCase:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 84 48 ]
+        %tmp.62 = "Castelldefels";
+        ret %tmp.62;
+P_Projects_RenfeHorarios_source_Stations_mc_85_12_85_61_switchCase:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 85 48 ]
+        %tmp.63 = "Gavà";
+        ret %tmp.63;
+P_Projects_RenfeHorarios_source_Stations_mc_86_12_86_67_switchCase:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 86 48 ]
+        %tmp.64 = "Viladecans";
+        ret %tmp.64;
+P_Projects_RenfeHorarios_source_Stations_mc_87_12_87_67_switchCase:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 87 48 ]
+        %tmp.65 = "Bcn. Sants";
+        ret %tmp.65;
+P_Projects_RenfeHorarios_source_Stations_mc_88_12_88_69_switchCase:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 88 48 ]
+        %tmp.66 = "Bcn. Passeig";
+        ret %tmp.66;
+P_Projects_RenfeHorarios_source_Stations_mc_89_12_89_66_switchCase:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 89 48 ]
+        %tmp.67 = "Barcelona";
+        ret %tmp.67;
+P_Projects_RenfeHorarios_source_Stations_mc_90_12_90_32_switchCase:
+P_Projects_RenfeHorarios_source_Stations_mc_76_8_91_8_defaultCodeBegin:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 90 21 ]
+        %tmp.69 = lgetv %name;
+        ret %tmp.69;
+P_Projects_RenfeHorarios_source_Stations_mc_76_8_91_8_switchStmtEnd:
+        pop;
+P_Projects_RenfeHorarios_source_Stations_mc_75_41_92_4_stop:
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\Stations.mc"; @line = 94; ]
+    static
+    function getNearestStation(position as Position.Location) {
+P_Projects_RenfeHorarios_source_Stations_mc_94_69_107_4_start:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 95 8 ]
+        [ "P_Projects_RenfeHorarios_source_Stations_mc_94_69_107_4_start" "P_Projects_RenfeHorarios_source_Stations_mc_94_69_107_4_stop" ]
+        %closestStationId.1 = local;
+        %tmp.1 = "";
+        lputv %closestStationId.1 %tmp.1;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 96 8 ]
+        [ "P_Projects_RenfeHorarios_source_Stations_mc_94_69_107_4_start" "P_Projects_RenfeHorarios_source_Stations_mc_94_69_107_4_stop" ]
+        %closestDistance.2 = local;
+        %tmp.2 = 999999;
+        lputv %closestDistance.2 %tmp.2;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 97 8 ]
+        for @P_Projects_RenfeHorarios_source_Stations_mc_97_8_104_8_for_test @P_Projects_RenfeHorarios_source_Stations_mc_97_8_104_8_for_incr @P_Projects_RenfeHorarios_source_Stations_mc_97_8_104_8_for_end;
+P_Projects_RenfeHorarios_source_Stations_mc_97_8_104_8_for_init:
+        [ "P_Projects_RenfeHorarios_source_Stations_mc_97_8_104_8_for_begin" "P_Projects_RenfeHorarios_source_Stations_mc_97_8_104_8_for_end" ]
+        %stationIndex.3 = local;
+        %tmp.3 = 0;
+        lputv %stationIndex.3 %tmp.3;
+P_Projects_RenfeHorarios_source_Stations_mc_97_8_104_8_for_test:
+        %tmp.5 = lgetv %stationIndex.3;
+        %tmp.7 = getv ? :byId;
+        %tmp.8 = getv function %tmp.7 :size;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        %tmp.10 = lt %tmp.5 %tmp.9;
+        bf %tmp.10 @P_Projects_RenfeHorarios_source_Stations_mc_97_8_104_8_for_end;
+P_Projects_RenfeHorarios_source_Stations_mc_97_8_104_8_for_begin:
+P_Projects_RenfeHorarios_source_Stations_mc_97_79_104_8_start:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 98 12 ]
+        [ "P_Projects_RenfeHorarios_source_Stations_mc_97_79_104_8_start" "P_Projects_RenfeHorarios_source_Stations_mc_97_79_104_8_stop" ]
+        %stationId.4 = local;
+        %tmp.12 = getv ? :byId;
+        %tmp.13 = getv function %tmp.12 :keys;
+        %tmp.14 = invoke %tmp.12 %tmp.13();
+        %tmp.16 = lgetv %stationIndex.3;
+        %tmp.17 = agetv %tmp.14 %tmp.16;
+        lputv %stationId.4 %tmp.17;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 99 12 ]
+        [ "P_Projects_RenfeHorarios_source_Stations_mc_97_79_104_8_start" "P_Projects_RenfeHorarios_source_Stations_mc_97_79_104_8_stop" ]
+        %distance.5 = local;
+        %tmp.18 = self;
+        %tmp.19 = getv function %tmp.18 :getDistance;
+        %tmp.21 = lgetv %position;
+        %tmp.22 = newa 2;
+        %tmp.24 = getv ? :byId;
+        %tmp.26 = lgetv %stationId.4;
+        %tmp.27 = agetv %tmp.24 %tmp.26;
+        %tmp.29 = const :latitude;
+        %tmp.30 = agetv %tmp.27 %tmp.29;
+        %tmp.31 = dup %tmp.22;
+        %tmp.32 = aputv %tmp.31 0 %tmp.30;
+        %tmp.34 = getv ? :byId;
+        %tmp.36 = lgetv %stationId.4;
+        %tmp.37 = agetv %tmp.34 %tmp.36;
+        %tmp.39 = const :longitude;
+        %tmp.40 = agetv %tmp.37 %tmp.39;
+        %tmp.41 = dup %tmp.32;
+        %tmp.42 = aputv %tmp.41 1 %tmp.40;
+        %tmp.43 = invoke %tmp.18 %tmp.19(%tmp.21, %tmp.42);
+        lputv %distance.5 %tmp.43;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 100 12 ]
+P_Projects_RenfeHorarios_source_Stations_mc_100_12_103_12_if_stmt:
+        %tmp.45 = lgetv %closestDistance.2;
+        %tmp.47 = lgetv %distance.5;
+        %tmp.48 = gt %tmp.45 %tmp.47;
+        bf %tmp.48 @P_Projects_RenfeHorarios_source_Stations_mc_100_12_103_12_if_end;
+P_Projects_RenfeHorarios_source_Stations_mc_100_12_103_12_if_true:
+P_Projects_RenfeHorarios_source_Stations_mc_100_44_103_12_start:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 101 16 ]
+        %tmp.50 = lgetv %stationId.4;
+        lputv %closestStationId.1 %tmp.50;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 102 16 ]
+        %tmp.52 = lgetv %distance.5;
+        lputv %closestDistance.2 %tmp.52;
+P_Projects_RenfeHorarios_source_Stations_mc_100_44_103_12_stop:
+        goto @P_Projects_RenfeHorarios_source_Stations_mc_100_12_103_12_if_end;
+P_Projects_RenfeHorarios_source_Stations_mc_100_12_103_12_if_end:
+P_Projects_RenfeHorarios_source_Stations_mc_97_79_104_8_stop:
+P_Projects_RenfeHorarios_source_Stations_mc_97_8_104_8_for_incr:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 97 ]
+        %tmp.55 = lgetv %stationIndex.3;
+        %tmp.56 = add %tmp.55 1;
+        lputv %stationIndex.3 %tmp.56;
+        goto @P_Projects_RenfeHorarios_source_Stations_mc_97_8_104_8_for_test;
+P_Projects_RenfeHorarios_source_Stations_mc_97_8_104_8_for_end:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 105 8 ]
+        %tmp.57 = getm $.Toybox.System;
+        %tmp.58 = getv function %tmp.57 :println;
+        %tmp.59 = "Stations::getNearestStation: returning ";
+        %tmp.61 = getv ? :byId;
+        %tmp.63 = lgetv %closestStationId.1;
+        %tmp.64 = agetv %tmp.61 %tmp.63;
+        %tmp.66 = const :name;
+        %tmp.67 = agetv %tmp.64 %tmp.66;
+        %tmp.68 = add %tmp.59 %tmp.67;
+        invoke %tmp.57 %tmp.58(%tmp.68);
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 106 8 ]
+        %tmp.70 = lgetv %closestStationId.1;
+        ret %tmp.70;
+P_Projects_RenfeHorarios_source_Stations_mc_94_69_107_4_stop:
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\Stations.mc"; @line = 109; ]
+    static
+    function getDistance(origin as Position.Location, latitudeLongitude as Lang.Array) as Lang.Double {
+P_Projects_RenfeHorarios_source_Stations_mc_109_109_114_4_start:
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 110 8 ]
+        [ "P_Projects_RenfeHorarios_source_Stations_mc_109_109_114_4_start" "P_Projects_RenfeHorarios_source_Stations_mc_109_109_114_4_stop" ]
+        %originDegrees.1 = local;
+        %tmp.1 = lgetv %origin;
+        %tmp.2 = getv function %tmp.1 :toDegrees;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %originDegrees.1 %tmp.3;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 111 8 ]
+        [ "P_Projects_RenfeHorarios_source_Stations_mc_109_109_114_4_start" "P_Projects_RenfeHorarios_source_Stations_mc_109_109_114_4_stop" ]
+        %latitudeDelta.2 = local;
+        %tmp.5 = lgetv %latitudeLongitude;
+        %tmp.6 = 0;
+        %tmp.7 = agetv %tmp.5 %tmp.6;
+        %tmp.9 = lgetv %originDegrees.1;
+        %tmp.10 = 0;
+        %tmp.11 = agetv %tmp.9 %tmp.10;
+        %tmp.12 = sub %tmp.7 %tmp.11;
+        lputv %latitudeDelta.2 %tmp.12;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 112 8 ]
+        [ "P_Projects_RenfeHorarios_source_Stations_mc_109_109_114_4_start" "P_Projects_RenfeHorarios_source_Stations_mc_109_109_114_4_stop" ]
+        %longitudeDelta.3 = local;
+        %tmp.14 = lgetv %latitudeLongitude;
+        %tmp.15 = 1;
+        %tmp.16 = agetv %tmp.14 %tmp.15;
+        %tmp.18 = lgetv %originDegrees.1;
+        %tmp.19 = 1;
+        %tmp.20 = agetv %tmp.18 %tmp.19;
+        %tmp.21 = sub %tmp.16 %tmp.20;
+        lputv %longitudeDelta.3 %tmp.21;
+[ "P:\Projects\RenfeHorarios\source\Stations.mc" 113 8 ]
+        %tmp.22 = getm $.Toybox.Math;
+        %tmp.23 = getv function %tmp.22 :sqrt;
+        %tmp.25 = lgetv %latitudeDelta.2;
+        %tmp.27 = lgetv %latitudeDelta.2;
+        %tmp.28 = mul %tmp.25 %tmp.27;
+        %tmp.30 = lgetv %longitudeDelta.3;
+        %tmp.32 = lgetv %longitudeDelta.3;
+        %tmp.33 = mul %tmp.30 %tmp.32;
+        %tmp.34 = add %tmp.28 %tmp.33;
+        %tmp.35 = invoke %tmp.22 %tmp.23(%tmp.34);
+        ret %tmp.35;
+P_Projects_RenfeHorarios_source_Stations_mc_109_109_114_4_stop:
+    }
+}
+[ @file = "P:\Projects\RenfeHorarios\source\Stations.mc"; @line = 1; ]
+<init> {
+}

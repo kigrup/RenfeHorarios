@@ -1,0 +1,181 @@
+[ @file = "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc"; @line = 1; ]
+using Toybox.WatchUi;
+[ @file = "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc"; @line = 2; ]
+using Toybox.Position;
+[ @file = "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc"; @line = 3; ]
+using Toybox.Time;
+[ @file = "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc"; @line = 5; ]
+class TrainLineMenu extends WatchUi.CustomMenu{
+    [ @file = "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc"; @line = 7; ]
+    function initialize(trainStations) as Void {
+P_Projects_RenfeHorarios_source_TrainLineMenu_mc_7_39_26_4_start:
+[ "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc" 8 8 ]
+        %tmp.2 = getv ? :CustomMenu;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = 80;
+        %tmp.6 = getv ? :Graphics;
+        %tmp.7 = getv %tmp.6 :COLOR_BLACK;
+        %tmp.8 = newd 0;
+        invoke %tmp.2 %tmp.3(%tmp.4, %tmp.7, %tmp.8);
+[ "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc" 10 8 ]
+        for @P_Projects_RenfeHorarios_source_TrainLineMenu_mc_10_8_25_8_for_test @P_Projects_RenfeHorarios_source_TrainLineMenu_mc_10_8_25_8_for_incr @P_Projects_RenfeHorarios_source_TrainLineMenu_mc_10_8_25_8_for_end;
+P_Projects_RenfeHorarios_source_TrainLineMenu_mc_10_8_25_8_for_init:
+        [ "P_Projects_RenfeHorarios_source_TrainLineMenu_mc_10_8_25_8_for_begin" "P_Projects_RenfeHorarios_source_TrainLineMenu_mc_10_8_25_8_for_end" ]
+        %stationIndex.1 = local;
+        %tmp.9 = 0;
+        lputv %stationIndex.1 %tmp.9;
+P_Projects_RenfeHorarios_source_TrainLineMenu_mc_10_8_25_8_for_test:
+        %tmp.11 = lgetv %stationIndex.1;
+        %tmp.12 = lgetv %trainStations;
+        %tmp.13 = getv function %tmp.12 :size;
+        %tmp.14 = invoke %tmp.12 %tmp.13();
+        %tmp.15 = lt %tmp.11 %tmp.14;
+        bf %tmp.15 @P_Projects_RenfeHorarios_source_TrainLineMenu_mc_10_8_25_8_for_end;
+P_Projects_RenfeHorarios_source_TrainLineMenu_mc_10_8_25_8_for_begin:
+P_Projects_RenfeHorarios_source_TrainLineMenu_mc_10_88_25_8_start:
+[ "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc" 11 12 ]
+        [ "P_Projects_RenfeHorarios_source_TrainLineMenu_mc_10_88_25_8_start" "P_Projects_RenfeHorarios_source_TrainLineMenu_mc_10_88_25_8_stop" ]
+        %station.2 = local;
+        %tmp.17 = lgetv %trainStations;
+        %tmp.19 = lgetv %stationIndex.1;
+        %tmp.20 = agetv %tmp.17 %tmp.19;
+        lputv %station.2 %tmp.20;
+[ "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc" 15 12 ]
+        %tmp.22 = getv ? :CustomMenu;
+        %tmp.23 = getv function %tmp.22 :addItem;
+        %tmp.27 = getv ? :CustomMenuItem;
+        %tmp.29 = lgetv %stationIndex.1;
+        %tmp.30 = newd 1;
+        %tmp.32 = const :drawable;
+        %tmp.36 = getv ? :TrainLineMenuItemDrawable;
+        %tmp.38 = lgetv %station.2;
+        %tmp.40 = const :departureDatetime;
+        %tmp.41 = agetv %tmp.38 %tmp.40;
+        %tmp.43 = lgetv %station.2;
+        %tmp.45 = const :stationName;
+        %tmp.46 = agetv %tmp.43 %tmp.45;
+        %tmp.33 = newc %tmp.36 (%tmp.41, %tmp.46);
+        %tmp.47 = dup %tmp.30;
+        %tmp.48 = aputv %tmp.47 %tmp.32 %tmp.33;
+        %tmp.24 = newc %tmp.27 (%tmp.29, %tmp.48);
+        invoke %tmp.22 %tmp.23(%tmp.24);
+P_Projects_RenfeHorarios_source_TrainLineMenu_mc_10_88_25_8_stop:
+P_Projects_RenfeHorarios_source_TrainLineMenu_mc_10_8_25_8_for_incr:
+[ "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc" 10 ]
+        %tmp.51 = lgetv %stationIndex.1;
+        %tmp.52 = add %tmp.51 1;
+        lputv %stationIndex.1 %tmp.52;
+        goto @P_Projects_RenfeHorarios_source_TrainLineMenu_mc_10_8_25_8_for_test;
+P_Projects_RenfeHorarios_source_TrainLineMenu_mc_10_8_25_8_for_end:
+P_Projects_RenfeHorarios_source_TrainLineMenu_mc_7_39_26_4_stop:
+    }
+}
+[ @file = "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc"; @line = 29; ]
+class TrainLineMenuItemDrawable extends WatchUi.Drawable{
+    [ @file = "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc"; @line = 29; ]
+    <init> {
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc"; @line = 29; ]
+    static
+    <init> {
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc"; @line = 31; @position = 8; ]
+    var departureTime;
+    [ @file = "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc"; @line = 32; @position = 8; ]
+    var stationName;
+    [ @file = "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc"; @line = 33; @position = 8; ]
+    var platform;
+    [ @file = "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc"; @line = 35; ]
+    function initialize(_departureTime, _stationName) as Void {
+P_Projects_RenfeHorarios_source_TrainLineMenu_mc_35_71_46_4_start:
+[ "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc" 36 8 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = newd 4;
+        %tmp.6 = const :locX;
+        %tmp.7 = getm $.Toybox.WatchUi;
+        %tmp.8 = getv %tmp.7 :LAYOUT_HALIGN_CENTER;
+        %tmp.9 = dup %tmp.4;
+        %tmp.10 = aputv %tmp.9 %tmp.6 %tmp.8;
+        %tmp.12 = const :locY;
+        %tmp.13 = getm $.Toybox.WatchUi;
+        %tmp.14 = getv %tmp.13 :LAYOUT_VALIGN_CENTER;
+        %tmp.15 = dup %tmp.10;
+        %tmp.16 = aputv %tmp.15 %tmp.12 %tmp.14;
+        %tmp.18 = const :width;
+        %tmp.19 = 380;
+        %tmp.20 = dup %tmp.16;
+        %tmp.21 = aputv %tmp.20 %tmp.18 %tmp.19;
+        %tmp.23 = const :height;
+        %tmp.24 = 80;
+        %tmp.25 = dup %tmp.21;
+        %tmp.26 = aputv %tmp.25 %tmp.23 %tmp.24;
+        invoke %tmp.2 %tmp.3(%tmp.26);
+[ "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc" 43 8 ]
+        %tmp.28 = lgetv %_departureTime;
+        putv self :departureTime %tmp.28;
+[ "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc" 44 8 ]
+        %tmp.30 = lgetv %_stationName;
+        putv self :stationName %tmp.30;
+P_Projects_RenfeHorarios_source_TrainLineMenu_mc_35_71_46_4_stop:
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc"; @line = 48; ]
+    function draw(dc) {
+P_Projects_RenfeHorarios_source_TrainLineMenu_mc_48_22_77_4_start:
+[ "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc" 49 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.4 = getv ? :Graphics;
+        %tmp.5 = getv %tmp.4 :COLOR_WHITE;
+        %tmp.7 = getv ? :Graphics;
+        %tmp.8 = getv %tmp.7 :COLOR_BLACK;
+        invoke %tmp.1 %tmp.2(%tmp.5, %tmp.8);
+[ "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc" 51 8 ]
+        %tmp.9 = lgetv %dc;
+        %tmp.10 = getv function %tmp.9 :drawText;
+        %tmp.11 = 10;
+        %tmp.12 = lgetv %dc;
+        %tmp.13 = getv function %tmp.12 :getHeight;
+        %tmp.14 = invoke %tmp.12 %tmp.13();
+        %tmp.15 = 2;
+        %tmp.16 = div %tmp.14 %tmp.15;
+        %tmp.18 = getv ? :Graphics;
+        %tmp.19 = getv %tmp.18 :FONT_TINY;
+        %tmp.21 = getv ? :departureTime;
+        %tmp.23 = getv ? :Graphics;
+        %tmp.24 = getv %tmp.23 :TEXT_JUSTIFY_LEFT;
+        %tmp.26 = getv ? :Graphics;
+        %tmp.27 = getv %tmp.26 :TEXT_JUSTIFY_VCENTER;
+        %tmp.28 = bitor %tmp.24 %tmp.27;
+        invoke %tmp.9 %tmp.10(%tmp.11, %tmp.16, %tmp.19, %tmp.21, %tmp.28);
+[ "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc" 59 8 ]
+        %tmp.29 = lgetv %dc;
+        %tmp.30 = getv function %tmp.29 :drawText;
+        %tmp.31 = 100;
+        %tmp.32 = lgetv %dc;
+        %tmp.33 = getv function %tmp.32 :getHeight;
+        %tmp.34 = invoke %tmp.32 %tmp.33();
+        %tmp.35 = 2;
+        %tmp.36 = div %tmp.34 %tmp.35;
+        %tmp.38 = getv ? :Graphics;
+        %tmp.39 = getv %tmp.38 :FONT_TINY;
+        %tmp.41 = getv ? :stationName;
+        %tmp.43 = getv ? :Graphics;
+        %tmp.44 = getv %tmp.43 :TEXT_JUSTIFY_LEFT;
+        %tmp.46 = getv ? :Graphics;
+        %tmp.47 = getv %tmp.46 :TEXT_JUSTIFY_VCENTER;
+        %tmp.48 = bitor %tmp.44 %tmp.47;
+        invoke %tmp.29 %tmp.30(%tmp.31, %tmp.36, %tmp.39, %tmp.41, %tmp.48);
+P_Projects_RenfeHorarios_source_TrainLineMenu_mc_48_22_77_4_stop:
+    }
+}
+[ @file = "P:\Projects\RenfeHorarios\source\TrainLineMenu.mc"; @line = 1; ]
+<init> {
+}

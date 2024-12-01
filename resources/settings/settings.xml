@@ -1,0 +1,44 @@
+<settings>
+    <setting propertyKey="@Properties.filterFavoriteStations"
+        title="@Strings.FilterFavoriteStations">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.favoriteStationA" title="@Strings.FavoriteStationA"
+        prompt="@Strings.Station">
+        <settingConfig type="list">
+            <listEntry value="0">None</listEntry>
+            <listEntry value="71600">Sant Vicenç de Calders</listEntry>
+            <listEntry value="71601">Calafell</listEntry>
+            <listEntry value="71602">Segur de Calafell</listEntry>
+            <listEntry value="71603">Cunit</listEntry>
+            <listEntry value="71604">Cubelles</listEntry>
+            <listEntry value="717000">Vilanova i la Geltrú</listEntry>
+            <listEntry value="71701">Sitges</listEntry>
+            <listEntry value="71705">Castelldefels</listEntry>
+            <listEntry value="71706">Gavà</listEntry>
+            <listEntry value="71709">Viladecans</listEntry>
+            <listEntry value="71801">Barcelona-Sants</listEntry>
+            <listEntry value="71802">Barcelona-Passeig de Gràcia</listEntry>
+            <listEntry value="79400">Barcelona-Estació de França</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.favoriteStationB" title="@Strings.FavoriteStationB"
+        prompt="@Strings.Station">
+        <settingConfig type="list">
+            <listEntry value="0">None</listEntry>
+            <listEntry value="71600">Sant Vicenç de Calders</listEntry>
+            <listEntry value="71601">Calafell</listEntry>
+            <listEntry value="71602">Segur de Calafell</listEntry>
+            <listEntry value="71603">Cunit</listEntry>
+            <listEntry value="71604">Cubelles</listEntry>
+            <listEntry value="717000">Vilanova i la Geltrú</listEntry>
+            <listEntry value="71701">Sitges</listEntry>
+            <listEntry value="71705">Castelldefels</listEntry>
+            <listEntry value="71706">Gavà</listEntry>
+            <listEntry value="71709">Viladecans</listEntry>
+            <listEntry value="71801">Barcelona-Sants</listEntry>
+            <listEntry value="71802">Barcelona-Passeig de Gràcia</listEntry>
+            <listEntry value="79400">Barcelona-Estació de França</listEntry>
+        </settingConfig>
+    </setting>
+</settings>

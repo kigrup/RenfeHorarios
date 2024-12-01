@@ -1,0 +1,157 @@
+{
+  "settings" : [ {
+    "key" : "filterFavoriteStations",
+    "valueType" : "boolean",
+    "defaultValue" : false,
+    "configTitle" : "FilterFavoriteStations",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "favoriteStationA",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "FavoriteStationA",
+    "configPrompt" : "Station",
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "$literal0$",
+      "value" : 0
+    }, {
+      "display" : "$literal1$",
+      "value" : 71600
+    }, {
+      "display" : "$literal2$",
+      "value" : 71601
+    }, {
+      "display" : "$literal3$",
+      "value" : 71602
+    }, {
+      "display" : "$literal4$",
+      "value" : 71603
+    }, {
+      "display" : "$literal5$",
+      "value" : 71604
+    }, {
+      "display" : "$literal6$",
+      "value" : 717000
+    }, {
+      "display" : "$literal7$",
+      "value" : 71701
+    }, {
+      "display" : "$literal8$",
+      "value" : 71705
+    }, {
+      "display" : "$literal9$",
+      "value" : 71706
+    }, {
+      "display" : "$literal10$",
+      "value" : 71709
+    }, {
+      "display" : "$literal11$",
+      "value" : 71801
+    }, {
+      "display" : "$literal12$",
+      "value" : 71802
+    }, {
+      "display" : "$literal13$",
+      "value" : 79400
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "favoriteStationB",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "FavoriteStationB",
+    "configPrompt" : "Station",
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "$literal0$",
+      "value" : 0
+    }, {
+      "display" : "$literal1$",
+      "value" : 71600
+    }, {
+      "display" : "$literal2$",
+      "value" : 71601
+    }, {
+      "display" : "$literal3$",
+      "value" : 71602
+    }, {
+      "display" : "$literal4$",
+      "value" : 71603
+    }, {
+      "display" : "$literal5$",
+      "value" : 71604
+    }, {
+      "display" : "$literal6$",
+      "value" : 717000
+    }, {
+      "display" : "$literal7$",
+      "value" : 71701
+    }, {
+      "display" : "$literal8$",
+      "value" : 71705
+    }, {
+      "display" : "$literal9$",
+      "value" : 71706
+    }, {
+      "display" : "$literal10$",
+      "value" : 71709
+    }, {
+      "display" : "$literal11$",
+      "value" : 71801
+    }, {
+      "display" : "$literal12$",
+      "value" : 71802
+    }, {
+      "display" : "$literal13$",
+      "value" : 79400
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "FavoriteStationB" : "Favorite Station B",
+      "FavoriteStationA" : "Favorite Station A",
+      "Renfe" : "Renfe",
+      "AppName" : "RenfeHorarios",
+      "Station" : "Station",
+      "$literal1$" : "Sant Vicenç de Calders",
+      "$literal0$" : "None",
+      "$literal3$" : "Segur de Calafell",
+      "$literal13$" : "Barcelona-Estació de França",
+      "$literal2$" : "Calafell",
+      "$literal5$" : "Cubelles",
+      "$literal4$" : "Cunit",
+      "$literal7$" : "Sitges",
+      "$literal6$" : "Vilanova i la Geltrú",
+      "$literal9$" : "Gavà",
+      "FilterFavoriteStations" : "Filter Favorite",
+      "$literal8$" : "Castelldefels",
+      "$literal11$" : "Barcelona-Sants",
+      "$literal12$" : "Barcelona-Passeig de Gràcia",
+      "$literal10$" : "Viladecans"
+    }
+  }
+}

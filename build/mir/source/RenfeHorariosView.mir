@@ -1,0 +1,109 @@
+[ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc"; @line = 4; ]
+class RenfeHorariosView extends WatchUi.View{
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc"; @line = 6; @position = 15; ]
+    protected
+    var message;
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc"; @line = 8; ]
+    function initialize() as Void {
+P_Projects_RenfeHorarios_source_RenfeHorariosView_mc_8_26_11_4_start:
+[ "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc" 9 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc" 10 8 ]
+        %tmp.4 = "Loading...";
+        putv self :message %tmp.4;
+P_Projects_RenfeHorarios_source_RenfeHorariosView_mc_8_26_11_4_stop:
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc"; @line = 14; ]
+    function onLayout(dc as Dc) as Void {
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc"; @line = 21; ]
+    function onShow() as Void {
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc"; @line = 26; ]
+    function onUpdate(dc as Dc) as Void {
+P_Projects_RenfeHorarios_source_RenfeHorariosView_mc_26_40_31_4_start:
+[ "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc" 27 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc" 29 8 ]
+        %tmp.6 = lgetv %dc;
+        %tmp.7 = getv function %tmp.6 :setColor;
+        %tmp.8 = getm $.Toybox.Graphics;
+        %tmp.9 = getv %tmp.8 :COLOR_WHITE;
+        %tmp.10 = getm $.Toybox.Graphics;
+        %tmp.11 = getv %tmp.10 :COLOR_BLACK;
+        invoke %tmp.6 %tmp.7(%tmp.9, %tmp.11);
+[ "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc" 30 8 ]
+        %tmp.12 = lgetv %dc;
+        %tmp.13 = getv function %tmp.12 :drawText;
+        %tmp.14 = lgetv %dc;
+        %tmp.15 = getv function %tmp.14 :getWidth;
+        %tmp.16 = invoke %tmp.14 %tmp.15();
+        %tmp.17 = 2;
+        %tmp.18 = div %tmp.16 %tmp.17;
+        %tmp.19 = lgetv %dc;
+        %tmp.20 = getv function %tmp.19 :getHeight;
+        %tmp.21 = invoke %tmp.19 %tmp.20();
+        %tmp.22 = 2;
+        %tmp.23 = div %tmp.21 %tmp.22;
+        %tmp.24 = getm $.Toybox.Graphics;
+        %tmp.25 = getv %tmp.24 :FONT_SMALL;
+        %tmp.27 = getv ? :message;
+        %tmp.28 = getm $.Toybox.Graphics;
+        %tmp.29 = getv %tmp.28 :TEXT_JUSTIFY_CENTER;
+        %tmp.30 = getm $.Toybox.Graphics;
+        %tmp.31 = getv %tmp.30 :TEXT_JUSTIFY_VCENTER;
+        %tmp.32 = bitor %tmp.29 %tmp.31;
+        invoke %tmp.12 %tmp.13(%tmp.18, %tmp.23, %tmp.25, %tmp.27, %tmp.32);
+P_Projects_RenfeHorarios_source_RenfeHorariosView_mc_26_40_31_4_stop:
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc"; @line = 36; ]
+    function onHide() as Void {
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc"; @line = 39; ]
+    function onReceive(args) {
+P_Projects_RenfeHorarios_source_RenfeHorariosView_mc_39_29_44_1_start:
+[ "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc" 40 2 ]
+P_Projects_RenfeHorarios_source_RenfeHorariosView_mc_40_2_43_2_if_stmt:
+        %tmp.2 = lgetv %args;
+        %tmp.4 = getv ? :Lang;
+        %tmp.5 = getv %tmp.4 :String;
+        %tmp.6 = isa %tmp.2 %tmp.5;
+        bf %tmp.6 @P_Projects_RenfeHorarios_source_RenfeHorariosView_mc_40_2_43_2_if_end;
+P_Projects_RenfeHorarios_source_RenfeHorariosView_mc_40_2_43_2_if_true:
+P_Projects_RenfeHorarios_source_RenfeHorariosView_mc_40_35_43_2_start:
+[ "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc" 41 3 ]
+        %tmp.8 = lgetv %args;
+        %tmp.9 = as %tmp.8 { (Lang.String) };
+        putv self :message %tmp.9;
+[ "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc" 42 6 ]
+        %tmp.10 = getm $.Toybox.WatchUi;
+        %tmp.11 = getv function %tmp.10 :requestUpdate;
+        invoke %tmp.10 %tmp.11();
+P_Projects_RenfeHorarios_source_RenfeHorariosView_mc_40_35_43_2_stop:
+        goto @P_Projects_RenfeHorarios_source_RenfeHorariosView_mc_40_2_43_2_if_end;
+P_Projects_RenfeHorarios_source_RenfeHorariosView_mc_40_2_43_2_if_end:
+P_Projects_RenfeHorarios_source_RenfeHorariosView_mc_39_29_44_1_stop:
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc"; @line = 46; ]
+    function openNearestStationMenu() {
+    }
+}
+[ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosView.mc"; @line = 1; ]
+<init> {
+}

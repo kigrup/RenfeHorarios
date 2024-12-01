@@ -1,0 +1,40 @@
+[ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosMenuDelegate.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosMenuDelegate.mc"; @line = 2; ]
+import Toybox.System;
+[ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosMenuDelegate.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosMenuDelegate.mc"; @line = 5; ]
+class RenfeHorariosMenuDelegate extends WatchUi.Menu2InputDelegate{
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosMenuDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosMenuDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosMenuDelegate.mc"; @line = 7; ]
+    function initialize() as Void {
+P_Projects_RenfeHorarios_source_RenfeHorariosMenuDelegate_mc_7_26_9_4_start:
+[ "P:\Projects\RenfeHorarios\source\RenfeHorariosMenuDelegate.mc" 8 8 ]
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+P_Projects_RenfeHorarios_source_RenfeHorariosMenuDelegate_mc_7_26_9_4_stop:
+    }
+    [ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosMenuDelegate.mc"; @line = 11; ]
+    function onSelect(item) {
+P_Projects_RenfeHorarios_source_RenfeHorariosMenuDelegate_mc_11_28_13_4_start:
+[ "P:\Projects\RenfeHorarios\source\RenfeHorariosMenuDelegate.mc" 12 8 ]
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = lgetv %item;
+        %tmp.4 = getv function %tmp.3 :getId;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        invoke %tmp.1 %tmp.2(%tmp.5);
+P_Projects_RenfeHorarios_source_RenfeHorariosMenuDelegate_mc_11_28_13_4_stop:
+    }
+}
+[ @file = "P:\Projects\RenfeHorarios\source\RenfeHorariosMenuDelegate.mc"; @line = 1; ]
+<init> {
+}
