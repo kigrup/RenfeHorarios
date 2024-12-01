@@ -2,6 +2,7 @@ using Toybox.Application;
 using Toybox.Application.Properties;
 using Toybox.Position;
 using Toybox.WatchUi;
+using Toybox.System;
 
 class RenfeHorariosViewDelegate extends WatchUi.BehaviorDelegate {
 
@@ -19,10 +20,17 @@ class RenfeHorariosViewDelegate extends WatchUi.BehaviorDelegate {
 	}
 
 	function onMenu() {
+		System.println("RenfeHorariosViewDelegate::onMenu");
         return true;
     }
 
 	function onSelect() {
+		System.println("RenfeHorariosViewDelegate::onSelect");
+		return true;
+	}
+
+	function onPreviousPage() {
+		System.println("RenfeHorariosViewDelegate::onPreviousPage");
 		return true;
 	}
 
