@@ -15,7 +15,7 @@ class RenfeHorariosViewDelegate extends WatchUi.BehaviorDelegate {
 		BehaviorDelegate.initialize();
 		notify = handler;
 		gpsReady = false;
-		notify.invoke("Waiting\nfor GPS...");
+		notify.invoke(:waitingGPSMessage);
 		Position.enableLocationEvents(Position.LOCATION_ONE_SHOT, method(:onPosition));
 	}
 

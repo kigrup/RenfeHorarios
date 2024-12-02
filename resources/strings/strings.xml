@@ -5,4 +5,5 @@
     <string id="FavoriteStationA">Favorite Station A</string>
     <string id="FavoriteStationB">Favorite Station B</string>
     <string id="Station">Station</string>
+    <string id="WaitingGPS">Waiting\nfor GPS...</string>
 </strings>
