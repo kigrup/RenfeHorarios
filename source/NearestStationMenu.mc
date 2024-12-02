@@ -9,6 +9,7 @@ class NearestStationMenu extends WatchUi.CustomMenu {
     function initialize(stationData as StationSchedule, position as Position.Location) {
         userPosition = position;
         CustomMenu.initialize(80, Graphics.COLOR_BLACK, {
+            :titleItemHeight=> 100,
             :title=>new WatchUi.Text({
                 :text=>"Renfe",
                 :color=>Graphics.COLOR_WHITE,
@@ -16,6 +17,7 @@ class NearestStationMenu extends WatchUi.CustomMenu {
                 :locX=>WatchUi.LAYOUT_HALIGN_CENTER,
                 :locY=>WatchUi.LAYOUT_VALIGN_CENTER
             }),
+            :footerItemHeight=> 50,
             :footer=>new WatchUi.Text({
                 :text=>"Settings",
                 :color=>Graphics.COLOR_WHITE,
