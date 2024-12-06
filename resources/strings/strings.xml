@@ -6,4 +6,7 @@
     <string id="FavoriteStationB">Favorite Station B</string>
     <string id="Station">Station</string>
     <string id="WaitingGPS">Waiting\nfor GPS...</string>
+    <string id="RequestingSchedules">Requesting\nSchedules...</string>
+    <string id="LastStation">Last Station</string>
+    <string id="SelectStation">Select Station</string>
 </strings>
