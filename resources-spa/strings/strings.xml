@@ -1,0 +1,10 @@
+<strings>
+    <string id="FilterFavoriteStations">Filtrar Favoritos</string>
+    <string id="FavoriteStationA">Estación Preferida A</string>
+    <string id="FavoriteStationB">Estación Preferida B</string>
+    <string id="Station">Estación</string>
+    <string id="WaitingGPS">Esperando\nal GPS...</string>
+    <string id="RequestingSchedules">Solicitando\nHorarios...</string>
+    <string id="LastStation">Estación reciente</string>
+    <string id="SelectStation">Seleccionar estación</string>
+</strings>
