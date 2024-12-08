@@ -154,7 +154,7 @@ class RenfeHorariosViewDelegate extends WatchUi.BehaviorDelegate {
         for (var i = 0; i < menuItems.size(); i++) {
             menu.addItem(menuItems[i]);
         }
-        WatchUi.pushView(menu, new SelectStationDelegate(method(:onSelectFromMenu)), WatchUi.SLIDE_DOWN);
+        WatchUi.pushView(menu, new SelectStationDelegate(method(:onSelectFromMenu)), WatchUi.SLIDE_UP);
 		return true;
 	}
 
