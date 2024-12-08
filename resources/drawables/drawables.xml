@@ -1,5 +1,5 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="adif_small.png" />
     <bitmap id="Tap" filename="tap.png" automaticPalette="false" />
-    <bitmap id="SwipeDown" filename="swipe_down.png" />
+    <bitmap id="SwipeDown" filename="swipe_down.png" automaticPalette="false" />
 </drawables>

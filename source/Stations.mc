@@ -1,4 +1,6 @@
 using Toybox.Position;
+using Toybox.WatchUi;
+using Toybox.Graphics;
 using Toybox.Math;
 using Toybox.System;
 using Toybox.Lang;
@@ -111,5 +113,20 @@ class Stations {
         var latitudeDelta = latitudeLongitude[0] - originDegrees[0];
         var longitudeDelta = latitudeLongitude[1] - originDegrees[1];
         return Math.sqrt((latitudeDelta * latitudeDelta) + (longitudeDelta * longitudeDelta));
+    }
+
+    static function getMenuItems() {
+        var values = [];
+        for (var i = 0; i < byId.size(); i++) {
+            var stationId = byId.keys()[i];
+            var name = byId[stationId][:name];
+            values.add(new WatchUi.MenuItem(
+                name,
+                "",
+                stationId,
+                {}
+            ));
+        }
+        return values;
     }
 }

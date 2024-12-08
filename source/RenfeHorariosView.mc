@@ -27,7 +27,7 @@ class RenfeHorariosView extends WatchUi.View {
         View.initialize();
         message = "Loading...";
         lastStation = Application.Properties.getValue("lastStation");
-        if (lastStation != null && lastStation != "") {
+        if (lastStation != null && lastStation.length() > 0) {
             lastStationName = Stations.abbreviateName(Stations.byId[lastStation][:name]);
         }
     }
@@ -52,7 +52,7 @@ class RenfeHorariosView extends WatchUi.View {
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
 
         // Draw top message
-        if (lastStation != null && lastStation != "") {
+        if (lastStation != null && lastStation.length() > 0) {
             if (message == messages[WAITING_GPS]) {
                 dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
                 dc.drawBitmap(-15 + dc.getWidth()/2, 0, tapBitmapResource);
@@ -72,8 +72,17 @@ class RenfeHorariosView extends WatchUi.View {
         dc.drawText(dc.getWidth()/2, dc.getHeight()/2, Graphics.FONT_SMALL, message, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
         // Draw bottom message
-        dc.drawBitmap(-15 + dc.getWidth()/2, dc.getHeight()-30, swipeDownBitmapResource);
-        dc.drawText(dc.getWidth()/2, dc.getHeight()-45, Graphics.FONT_XTINY, messages[SELECT_STATION], Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        if (message == messages[WAITING_GPS]) {
+            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+            dc.drawBitmap(-15 + dc.getWidth()/2, dc.getHeight()-30, swipeDownBitmapResource);
+            dc.drawText(dc.getWidth()/2, dc.getHeight()-45, Graphics.FONT_XTINY, messages[SELECT_STATION], Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        } else {
+            dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
+            dc.drawBitmap2(-15 + dc.getWidth()/2, dc.getHeight()-30, swipeDownBitmapResource, {
+                :tintColor => Graphics.COLOR_DK_GRAY
+            });
+            dc.drawText(dc.getWidth()/2, dc.getHeight()-45, Graphics.FONT_XTINY, messages[SELECT_STATION], Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        }
     }
 
     // Called when this View is removed from the screen. Save the
@@ -118,7 +127,9 @@ class RenfeHorariosViewDelegate extends WatchUi.BehaviorDelegate {
     }
 
 	function onSelect() {
-		if (lastStation != null && lastStation != "") {
+        System.println("lastStation");
+        System.println(lastStation);
+		if (lastStation != null && lastStation has :length && lastStation.length() > 0) {
             var lastStationLocation = new Position.Location({
                 :latitude => Stations.byId[lastStation][:latitude],
                 :longitude => Stations.byId[lastStation][:longitude],
@@ -129,8 +140,21 @@ class RenfeHorariosViewDelegate extends WatchUi.BehaviorDelegate {
         return true;
 	}
 
-	function onPreviousPage() {
-		System.println("RenfeHorariosViewDelegate::onPreviousPage");
+    function onSelectFromMenu(stationId) {
+        lastStation = stationId;
+        onSelect();
+    }
+
+	function onNextPage() {
+        if (gpsReady) {
+            return true;
+        }
+        var menuItems = Stations.getMenuItems();
+        var menu = new WatchUi.Menu2({ :title => "Station"});
+        for (var i = 0; i < menuItems.size(); i++) {
+            menu.addItem(menuItems[i]);
+        }
+        WatchUi.pushView(menu, new SelectStationDelegate(method(:onSelectFromMenu)), WatchUi.SLIDE_DOWN);
 		return true;
 	}
 
