@@ -14,9 +14,9 @@ class APIRequest {
 
 	var stationId;
 
-	function initialize(handler, positionInfo as Position.Info) {
+	function initialize(handler, positionLocation as Position.Location) {
 		notify = handler;
-		position = positionInfo.position;
+		position = positionLocation;
 
 		stationId = Stations.getNearestStation(position);
         Application.Properties.setValue("lastStation", stationId);
