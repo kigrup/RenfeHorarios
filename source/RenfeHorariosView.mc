@@ -20,9 +20,19 @@ class RenfeHorariosView extends WatchUi.View {
     var swipeDownBitmapResource;
     var tapBitmapResource;
 
+    var lastStation;
+    var lastStationName;
+
     function initialize() {
         View.initialize();
         message = "Loading...";
+        var lastStation = Application.Properties.getValue("lastStation");
+        System.println("last station: ");
+        System.println(lastStation);
+        if (lastStation != null && lastStation == "") {
+            System.println("lastStation not null nor empty");
+            lastStationName = Stations.abbreviateName(Stations.byId[lastStation][:name]);
+        }
     }
 
     function loadMessages() {
@@ -42,10 +52,14 @@ class RenfeHorariosView extends WatchUi.View {
     function onUpdate(dc as Dc) as Void {
         View.onUpdate(dc);
 
-        // Draw top message
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawBitmap(-15 + dc.getWidth()/2, 0, tapBitmapResource);
-        dc.drawText(dc.getWidth()/2, 50, Graphics.FONT_XTINY, messages[LAST_STATION], Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+
+        // Draw top message
+        if (lastStation != null && lastStation != "") {
+            dc.drawBitmap(-15 + dc.getWidth()/2, 0, tapBitmapResource);
+            dc.drawText(dc.getWidth()/2, 50, Graphics.FONT_XTINY, messages[LAST_STATION], Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+            dc.drawText(dc.getWidth()/2, 80, Graphics.FONT_XTINY, lastStationName, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        }
 
         // Draw middle message
         dc.drawText(dc.getWidth()/2, dc.getHeight()/2, Graphics.FONT_SMALL, message, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
@@ -109,7 +123,7 @@ class RenfeHorariosViewDelegate extends WatchUi.BehaviorDelegate {
 		//positionInfo = position;
 		if (gpsReady == false) {
 			APIRequestInstance = new APIRequest(notify, info);
-			notify.invoke("Requesting\nschedules...");
+			notify.invoke(RenfeHorariosView.REQUESTING_SCHEDULES);
 			APIRequestInstance.makeWebRequest();
 			gpsReady = true;
 		}

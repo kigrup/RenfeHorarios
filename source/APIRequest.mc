@@ -19,6 +19,7 @@ class APIRequest {
 		position = positionInfo.position;
 
 		stationId = Stations.getNearestStation(position);
+        Application.Properties.setValue("lastStation", stationId);
 
 		endpoint += stationId;
 	}

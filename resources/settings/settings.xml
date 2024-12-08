@@ -41,4 +41,8 @@
             <listEntry value="79400">Barcelona-Estació de França</listEntry>
         </settingConfig>
     </setting>
+    <setting propertyKey="@Properties.lastStation"
+        title="@Strings.LastStation">
+        <settingConfig type="alphaNumeric" />
+    </setting>
 </settings>

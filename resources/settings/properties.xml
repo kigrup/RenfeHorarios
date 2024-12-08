@@ -2,4 +2,5 @@
     <property id="filterFavoriteStations" type="boolean">false</property>
     <property id="favoriteStationA" type="number">0</property>
     <property id="favoriteStationB" type="number">0</property>
+    <property id="lastStation" type="string"></property>
 </properties>
