@@ -9,13 +9,17 @@ class TrainLineMenu extends WatchUi.CustomMenu {
 
         for (var stationIndex = 0; stationIndex < trainStations.size(); stationIndex++) {
             var station = trainStations[stationIndex];
+            var platform = null;
+            if (station has :platform) {
+                platform = station[:platform];
+            }
             CustomMenu.addItem(new CustomMenuItem(
                 stationIndex,
                 {
                     :drawable=>new TrainLineMenuItemDrawable(
                         station[:departureDatetime],
-                        station[:stationName]/*,
-                        station[:platform] */
+                        station[:stationName],
+                        platform
                     )
                 }
             ));
@@ -29,7 +33,7 @@ class TrainLineMenuItemDrawable extends WatchUi.Drawable {
     var stationName;
     var platform;
 
-    function initialize(_departureTime, _stationName/* , _platform */) {
+    function initialize(_departureTime, _stationName, _platform) {
         Drawable.initialize({
             :locX =>WatchUi.LAYOUT_HALIGN_CENTER,
             :locY=>WatchUi.LAYOUT_VALIGN_CENTER,
@@ -39,7 +43,9 @@ class TrainLineMenuItemDrawable extends WatchUi.Drawable {
 
         departureTime = _departureTime;
         stationName = _stationName;
-        /* platform = _platform; */
+        if (_platform != null) {
+            platform = _platform;
+        }
     }
 
     function draw(dc) {
@@ -61,7 +67,7 @@ class TrainLineMenuItemDrawable extends WatchUi.Drawable {
             Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER
         );
         // Draw plaform number
-        /* if (platform != null){
+        if (platform != null){
             dc.drawText(
                 350,
                 dc.getHeight() / 2,
@@ -69,7 +75,7 @@ class TrainLineMenuItemDrawable extends WatchUi.Drawable {
                 platform,
                 Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER
             );
-        } */
+        }
         
     }
 }
