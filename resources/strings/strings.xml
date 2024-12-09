@@ -9,4 +9,5 @@
     <string translatable="true" id="RequestingSchedules">Requesting\nSchedules...</string>
     <string translatable="true" id="LastStation">Last Station</string>
     <string translatable="true" id="SelectStation">Select Station</string>
+    <string translatable="true" id="Settings">Settings</string>
 </strings>

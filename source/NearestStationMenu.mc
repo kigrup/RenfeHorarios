@@ -1,6 +1,7 @@
 using Toybox.WatchUi;
 using Toybox.Position;
 using Toybox.Time;
+using Toybox.System;
 
 class NearestStationMenu extends WatchUi.CustomMenu {
     
@@ -8,22 +9,26 @@ class NearestStationMenu extends WatchUi.CustomMenu {
 
     function initialize(stationData as StationSchedule, position as Position.Location) {
         userPosition = position;
+        var stationName = Stations.byId[stationData.stationId.toString()][:name];
         CustomMenu.initialize(80, Graphics.COLOR_BLACK, {
             :titleItemHeight=> 100,
-            :title=>new WatchUi.Text({
-                :text=>"Renfe",
-                :color=>Graphics.COLOR_WHITE,
-                :font=>Graphics.FONT_MEDIUM,
-                :locX=>WatchUi.LAYOUT_HALIGN_CENTER,
-                :locY=>WatchUi.LAYOUT_VALIGN_CENTER
+            :title => new WatchUi.TextArea({
+                :text => stationName,
+                :color => Graphics.COLOR_WHITE,
+                :font => [Graphics.FONT_MEDIUM, Graphics.FONT_SMALL, Graphics.FONT_TINY, Graphics.FONT_XTINY],
+                :locX => WatchUi.LAYOUT_HALIGN_CENTER,
+                :locY => WatchUi.LAYOUT_VALIGN_CENTER + 20,
+                :width => 280,
+                :height => 85,
+                :justification => Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
             }),
-            :footerItemHeight=> 50,
-            :footer=>new WatchUi.Text({
-                :text=>"Settings",
-                :color=>Graphics.COLOR_WHITE,
-                :font=>Graphics.FONT_SMALL,
-                :locX=>WatchUi.LAYOUT_HALIGN_CENTER,
-                :locY=>WatchUi.LAYOUT_VALIGN_CENTER
+            :footerItemHeight => 100,
+            :footer => new WatchUi.Text({
+                :text => Application.loadResource(Rez.Strings.Settings),
+                :color => Graphics.COLOR_WHITE,
+                :font => Graphics.FONT_SMALL,
+                :locX => WatchUi.LAYOUT_HALIGN_CENTER,
+                :locY => WatchUi.LAYOUT_VALIGN_CENTER
             })
         });
 
