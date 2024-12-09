@@ -1,6 +1,7 @@
 using Toybox.WatchUi;
 using Toybox.Position;
 using Toybox.Time;
+using Toybox.Lang;
 
 class TrainLineMenu extends WatchUi.CustomMenu {
     
@@ -11,15 +12,15 @@ class TrainLineMenu extends WatchUi.CustomMenu {
             var station = trainStations[stationIndex];
             var platform = null;
             if (station has :platform) {
-                platform = station[:platform];
+                platform = station[:platform] as Lang.String;
             }
             CustomMenu.addItem(new CustomMenuItem(
                 stationIndex,
                 {
                     :drawable=>new TrainLineMenuItemDrawable(
-                        station[:departureDatetime],
-                        station[:stationName],
-                        platform
+                        station[:departureDatetime] as Lang.String,
+                        station[:stationName] as Lang.String,
+                        platform as Lang.String
                     )
                 }
             ));
