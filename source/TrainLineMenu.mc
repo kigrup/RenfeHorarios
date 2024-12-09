@@ -9,9 +9,6 @@ class TrainLineMenu extends WatchUi.CustomMenu {
 
         for (var stationIndex = 0; stationIndex < trainStations.size(); stationIndex++) {
             var station = trainStations[stationIndex];
-            /* System.println("NearestStationMenu:: station[:stationName] = " + station[:stationName]);
-            System.println("NearestStationMenu:: station[:departureDatetime] = " + station[:departureDatetime]);
-            System.println("NearestStationMenu:: station[:platform] = " + station[:platform]); */
             CustomMenu.addItem(new CustomMenuItem(
                 stationIndex,
                 {

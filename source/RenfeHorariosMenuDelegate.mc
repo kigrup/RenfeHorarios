@@ -9,7 +9,6 @@ class RenfeHorariosMenuDelegate extends WatchUi.Menu2InputDelegate {
     }
 
     function onSelect(item) {
-        System.println(item.getId());
     }
 
 }

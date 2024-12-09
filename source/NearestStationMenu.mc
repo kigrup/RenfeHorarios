@@ -29,7 +29,6 @@ class NearestStationMenu extends WatchUi.CustomMenu {
 
         for (var trainIndex = 0; trainIndex < stationData.trains.size(); trainIndex++) {
             var train = stationData.trains[trainIndex];
-            //System.println("NearestStationMenu:: train " + train["destinationStation"].toString());
             CustomMenu.addItem(new CustomMenuItem(
                 trainIndex,
                 {
@@ -69,18 +68,15 @@ class NearestStationMenuItemDrawable extends WatchUi.Drawable {
     }
 
     function updateLabels(redraw) {
-        //System.println("NearestStationMenuItemDrawable::updateLabels: ENTER");
         var now = Time.Gregorian.localMoment(userPosition, Time.now());
         var durationDiference = departureMoment.subtract(now.toMoment().add(new Time.Duration(now.getOffset())));
         timeLeft = (durationDiference.value() / Time.Gregorian.SECONDS_PER_MINUTE) + "′";
         if (redraw) {
             WatchUi.requestUpdate();
         }
-        //System.println("NearestStationMenuItemDrawable::updateLabels: EXIT");
     }
 
     function draw(dc) {
-        //System.println("NearestStationMenuItemDrawable::draw");
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
         // Draw minutes left for departure
         dc.drawText(

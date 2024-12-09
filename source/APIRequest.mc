@@ -45,7 +45,6 @@ class APIRequest {
 	}
 
 	function onReceiveResponse(responseCode, data) {
-		//System.println("APIRequest::onReceiveResponse: responseCode=" + responseCode.toString());
 		if (responseCode == 200) {
 			var stationSchedule = parseResponse(data);
 			WatchUi.pushView(new NearestStationMenu(stationSchedule, position), new NearestStationInputDelegate(stationSchedule), WatchUi.SLIDE_LEFT);
@@ -68,7 +67,6 @@ class APIRequest {
 		var trains = [];
 		for (var trainIndex = 0; trainIndex < data["trains"].size(); trainIndex++) {
 			var train = data["trains"][trainIndex];
-			//System.println("parseResponse: train[" + trainIndex + "] " + train.toString());
 			if (!filterFavorites || true) {
 				var trainStations = [];
 				for (var stationIndex = 0; stationIndex < train["stations"].size(); stationIndex++) {

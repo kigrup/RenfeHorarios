@@ -11,7 +11,6 @@ class SelectStationDelegate extends WatchUi.Menu2InputDelegate {
     }
 
     function onSelect(item) {
-        System.println(item.getId());
         WatchUi.popView(WatchUi.SLIDE_DOWN);
         onSelectMethod.invoke(item.getId());
     }

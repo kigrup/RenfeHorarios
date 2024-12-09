@@ -104,7 +104,6 @@ class Stations {
                 closestDistance = distance;
             }
         }
-        //System.println("Stations::getNearestStation: returning " + byId[closestStationId][:name]);
         return closestStationId;
     }
 

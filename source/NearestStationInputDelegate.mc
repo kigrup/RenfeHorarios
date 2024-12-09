@@ -16,7 +16,6 @@ class NearestStationInputDelegate extends WatchUi.Menu2InputDelegate {
 
     function onSelect(item) {
         var trainLine = stationSchedule.trains[item.getId()][:stations];
-        //System.println("NearestStationInputDelegate::onSelect: Selected item " + item.getId() + " resulting in trainline= " + trainLine.toString());
 		WatchUi.pushView(new TrainLineMenu(trainLine), new WatchUi.Menu2InputDelegate(), WatchUi.SLIDE_LEFT);
     }
 

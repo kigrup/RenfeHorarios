@@ -122,13 +122,10 @@ class RenfeHorariosViewDelegate extends WatchUi.BehaviorDelegate {
 	}
 
 	function onMenu() {
-		System.println("RenfeHorariosViewDelegate::onMenu");
         return true;
     }
 
 	function onSelect() {
-        System.println("lastStation");
-        System.println(lastStation);
 		if (lastStation != null && lastStation has :length && lastStation.length() > 0) {
             var lastStationLocation = new Position.Location({
                 :latitude => Stations.byId[lastStation][:latitude],
