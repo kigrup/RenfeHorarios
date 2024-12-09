@@ -53,6 +53,8 @@ class NearestStationMenuItemDrawable extends WatchUi.Drawable {
 
     var timeLeft;
 
+    var stationNameTextArea;
+
     function initialize(_stationName, _departureMoment, _platform, _userPosition) {
         Drawable.initialize({
             :locX =>WatchUi.LAYOUT_HALIGN_CENTER,
@@ -65,6 +67,17 @@ class NearestStationMenuItemDrawable extends WatchUi.Drawable {
         platform = _platform;
         userPosition = _userPosition;
         updateLabels(false);
+
+        stationNameTextArea = new WatchUi.TextArea({
+            :text => stationName,
+            :color => Graphics.COLOR_WHITE,
+            :font => [Graphics.FONT_TINY, Graphics.FONT_XTINY],
+            :locX => 75,
+            :locY => WatchUi.LAYOUT_VALIGN_CENTER,
+            :width => 260,
+            :height => 80,
+            :justification => Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER
+        });
     }
 
     function updateLabels(redraw) {
@@ -87,13 +100,7 @@ class NearestStationMenuItemDrawable extends WatchUi.Drawable {
             Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER
         );
         // Draw destination name
-        dc.drawText(
-            75,
-            dc.getHeight() / 2,
-            Graphics.FONT_TINY,
-            stationName,
-            Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER
-        );
+        stationNameTextArea.draw(dc);
         // Draw plaform number
         if (platform != null){
             dc.drawText(

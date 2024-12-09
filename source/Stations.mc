@@ -89,6 +89,9 @@ class Stations {
             case "Barcelona-Sants":             return "Bcn. Sants";
             case "Barcelona-Passeig de Gràcia": return "Bcn. Passeig";
             case "Barcelona-Estació de França": return "Barcelona";
+            case "Vilafranca del Penedès":      return "Vilafranca";
+            case "L'Hospitalet de Llobregat":   return "Hospitalet";
+            case "Terrassa Estació del Nord":   return "Terrassa Nord";
             default: return name;
         }
     }
@@ -98,7 +101,7 @@ class Stations {
         var closestDistance = 999999;
         for (var stationIndex = 0; stationIndex < byId.size(); stationIndex++) {
             var stationId = byId.keys()[stationIndex];
-            var distance = getDistance(position, [ byId[stationId][:latitude], byId[stationId][:longitude] ]);
+            var distance = getDistance(position, [ byId[stationId][:latitude] as Lang.Float, byId[stationId][:longitude] as Lang.Float]);
             if (closestDistance > distance) {
                 closestStationId = stationId;
                 closestDistance = distance;
