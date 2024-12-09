@@ -33,6 +33,8 @@ class TrainLineMenuItemDrawable extends WatchUi.Drawable {
     var stationName;
     var platform;
 
+    var stationNameTextArea;
+
     function initialize(_departureTime, _stationName, _platform) {
         Drawable.initialize({
             :locX =>WatchUi.LAYOUT_HALIGN_CENTER,
@@ -46,6 +48,17 @@ class TrainLineMenuItemDrawable extends WatchUi.Drawable {
         if (_platform != null) {
             platform = _platform;
         }
+
+        stationNameTextArea = new WatchUi.TextArea({
+            :text => stationName,
+            :color => Graphics.COLOR_WHITE,
+            :font => [Graphics.FONT_TINY, Graphics.FONT_XTINY],
+            :locX => 100,
+            :locY => WatchUi.LAYOUT_VALIGN_CENTER,
+            :width => 260,
+            :height => 80,
+            :justification => Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER
+        });
     }
 
     function draw(dc) {
@@ -58,16 +71,12 @@ class TrainLineMenuItemDrawable extends WatchUi.Drawable {
             departureTime,
             Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER
         );
+
         // Draw station name
-        dc.drawText(
-            100,
-            dc.getHeight() / 2,
-            Graphics.FONT_TINY,
-            stationName,
-            Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER
-        );
+        stationNameTextArea.draw(dc);
+
         // Draw plaform number
-        if (platform != null){
+        /* if (platform != null){
             dc.drawText(
                 350,
                 dc.getHeight() / 2,
@@ -75,7 +84,7 @@ class TrainLineMenuItemDrawable extends WatchUi.Drawable {
                 platform,
                 Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER
             );
-        }
+        } */
         
     }
 }
